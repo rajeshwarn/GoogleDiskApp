@@ -1,0 +1,9 @@
+c:\users\stysi\documents\visual studio 2015\Projects\GoogleDiskApp\GoogleDiskApp\bin\Debug\GoogleDiskApp.exe.config
+c:\users\stysi\documents\visual studio 2015\Projects\GoogleDiskApp\GoogleDiskApp\bin\Debug\GoogleDiskApp.exe
+c:\users\stysi\documents\visual studio 2015\Projects\GoogleDiskApp\GoogleDiskApp\bin\Debug\GoogleDiskApp.pdb
+c:\users\stysi\documents\visual studio 2015\Projects\GoogleDiskApp\GoogleDiskApp\obj\Debug\GoogleDiskApp.csprojResolveAssemblyReference.cache
+c:\users\stysi\documents\visual studio 2015\Projects\GoogleDiskApp\GoogleDiskApp\obj\Debug\GoogleDiskApp.Form1.resources
+c:\users\stysi\documents\visual studio 2015\Projects\GoogleDiskApp\GoogleDiskApp\obj\Debug\GoogleDiskApp.Properties.Resources.resources
+c:\users\stysi\documents\visual studio 2015\Projects\GoogleDiskApp\GoogleDiskApp\obj\Debug\GoogleDiskApp.csproj.GenerateResource.Cache
+c:\users\stysi\documents\visual studio 2015\Projects\GoogleDiskApp\GoogleDiskApp\obj\Debug\GoogleDiskApp.exe
+c:\users\stysi\documents\visual studio 2015\Projects\GoogleDiskApp\GoogleDiskApp\obj\Debug\GoogleDiskApp.pdb
