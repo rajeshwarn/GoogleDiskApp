@@ -70,6 +70,7 @@
             this.wyszukajZmodyfikowanePlikiToolStripMenuItem.Name = "wyszukajZmodyfikowanePlikiToolStripMenuItem";
             this.wyszukajZmodyfikowanePlikiToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
             this.wyszukajZmodyfikowanePlikiToolStripMenuItem.Text = "Wyszukaj zmodyfikowane pliki";
+            this.wyszukajZmodyfikowanePlikiToolStripMenuItem.Click += new System.EventHandler(this.wyszukajZmodyfikowanePlikiToolStripMenuItem_Click);
             // 
             // zakończToolStripMenuItem
             // 
@@ -104,6 +105,7 @@
             this.aktualizujPlikŹródłowyToolStripMenuItem.Name = "aktualizujPlikŹródłowyToolStripMenuItem";
             this.aktualizujPlikŹródłowyToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
             this.aktualizujPlikŹródłowyToolStripMenuItem.Text = "Aktualizuj plik źródłowy";
+            this.aktualizujPlikŹródłowyToolStripMenuItem.Click += new System.EventHandler(this.aktualizujPlikŹródłowyToolStripMenuItem_Click);
             // 
             // pomocToolStripMenuItem
             // 
