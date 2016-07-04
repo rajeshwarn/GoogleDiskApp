@@ -17,5 +17,10 @@ namespace GoogleDiskApp.Files_Stuff
             this.name = name;
             this.lastModyfication = lastModyfication;
         }
+
+        public Sheaf()
+        {
+            
+        }
     }
 }

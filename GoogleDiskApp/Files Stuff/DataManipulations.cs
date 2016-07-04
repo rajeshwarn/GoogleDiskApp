@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Windows.Forms;
 
 namespace GoogleDiskApp.Files_Stuff
 {
@@ -31,16 +32,26 @@ namespace GoogleDiskApp.Files_Stuff
             }
         }
 
-        public static List<Sheaf> CheckForModyfications(List<Sheaf> files)
+        public static List<Sheaf> CheckForModyfications(List<Sheaf> files, List<Sheaf> actualFiles)
         {
             List<Sheaf> modyficatedFiles = new List<Sheaf>();
-            List<Sheaf> actualFiles = GetListOfFiles();
+            int temp = 0;
 
-            for (int i = 0, length = modyficatedFiles.Count; i < length; i++)
+            if (files.Count >= actualFiles.Count)
+            {
+                temp = files.Count;
+            }
+            else if (files.Count < actualFiles.Count)
+            {
+                temp = actualFiles.Count;
+            }
+
+            for (int i = 0; i < temp; i++)
             {
                 if (files[i].name == actualFiles[i].name)
                 {
-                    if (files[i].lastModyfication != actualFiles[i].lastModyfication)
+                    int diffrenceInDates = DateTime.Compare(actualFiles[i].lastModyfication, files[i].lastModyfication ); //??
+                    if (diffrenceInDates > 0)
                     {
                         modyficatedFiles.Add(files[i]);
                     }
@@ -58,7 +69,9 @@ namespace GoogleDiskApp.Files_Stuff
                     var d = line.Split('|');
                     return new Sheaf
                     {
-                        //dunno why...
+                        path = d[0],
+                        name = d[1],
+                        lastModyfication = DateTime.ParseExact(d[2], "dd.MM.yyyy HH:mm:ss", CultureInfo.InvariantCulture)
                     };
                 })
                 .ToList();
