@@ -26,34 +26,36 @@ namespace GoogleDiskApp.Files_Stuff
             {
                 foreach (Sheaf file in files)
                 {
-                    string text = file.path + "|" + file.name + "|" + file.lastModyfication.ToString();
+                    string text = file.path + "|" + file.name + "|" + file.lastModyfication;
                     writer.WriteLine(text);
                 }
             }
         }
 
-        public static List<Sheaf> CheckForModyfications(List<Sheaf> files, List<Sheaf> actualFiles)
+        public static List<Sheaf> CheckForModyfications(List<Sheaf> oldFiles, List<Sheaf> actualFiles)
         {
             List<Sheaf> modyficatedFiles = new List<Sheaf>();
-            int temp = 0;
-
-            if (files.Count >= actualFiles.Count)
-            {
-                temp = files.Count;
-            }
-            else if (files.Count < actualFiles.Count)
-            {
-                temp = actualFiles.Count;
-            }
+            int temp = oldFiles.Count;
+            //if (files.Count >= actualFiles.Count)
+            //{
+            //    temp = files.Count;
+            //}
+            //else if (files.Count < actualFiles.Count)
+            //{
+            //    temp = actualFiles.Count;
+            //}
 
             for (int i = 0; i < temp; i++)
             {
-                if (files[i].name == actualFiles[i].name)
+                if (oldFiles[i].name == actualFiles[i].name)
                 {
-                    int diffrenceInDates = DateTime.Compare(actualFiles[i].lastModyfication, files[i].lastModyfication ); //??
-                    if (diffrenceInDates > 0)
+                    long oldTicks = long.Parse(oldFiles[i].lastModyfication.Ticks.ToString().Substring(0, 11)),
+                        newTicks = long.Parse(actualFiles[i].lastModyfication.Ticks.ToString().Substring(0, 11)); 
+                    //usunięcie ostatnich 7 znaków a nie substring
+
+                    if (oldTicks < newTicks)
                     {
-                        modyficatedFiles.Add(files[i]);
+                        modyficatedFiles.Add(actualFiles[i]);
                     }
                 }
             }
@@ -71,7 +73,7 @@ namespace GoogleDiskApp.Files_Stuff
                     {
                         path = d[0],
                         name = d[1],
-                        lastModyfication = DateTime.ParseExact(d[2], "dd.MM.yyyy HH:mm:ss", CultureInfo.InvariantCulture)
+                        lastModyfication = DateTime.ParseExact(d[2], "dd.MM.yyyy HH:mm:ss", CultureInfo.InvariantCulture),
                     };
                 })
                 .ToList();

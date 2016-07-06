@@ -22,9 +22,9 @@ namespace GoogleDiskApp
         private void wyszukajZmodyfikowanePlikiToolStripMenuItem_Click(object sender, EventArgs e)
         {
             List<Sheaf> allFiles = DataManipulations.GetListOfFiles();
-            string fileName = System.Environment.CurrentDirectory + "\\list.txt";
+            string fileName = Environment.CurrentDirectory + "\\list.txt";
             _log = DataManipulations.ReadFromFile(fileName);
-            DataManipulations.CheckForModyfications(allFiles, _log);
+            DataManipulations.CheckForModyfications(_log, allFiles);
         }
 
         private void aktualizujPlikŹródłowyToolStripMenuItem_Click(object sender, EventArgs e)
