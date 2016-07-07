@@ -35,25 +35,59 @@ namespace GoogleDiskApp.Files_Stuff
         public static List<Sheaf> CheckForModyfications(List<Sheaf> oldFiles, List<Sheaf> actualFiles)
         {
             List<Sheaf> modyficatedFiles = new List<Sheaf>();
-            int temp = oldFiles.Count;
-            //if (files.Count >= actualFiles.Count)
-            //{
-            //    temp = files.Count;
-            //}
-            //else if (files.Count < actualFiles.Count)
-            //{
-            //    temp = actualFiles.Count;
-            //}
+            int tempLarge = 0, tempSmall = 0;
+            if (oldFiles.Count >= actualFiles.Count)
+            {
+                tempLarge = oldFiles.Count;
+                tempSmall = actualFiles.Count;
+            }
+            else
+            {
+                tempLarge = actualFiles.Count;
+                tempSmall = oldFiles.Count;
+            }
+            //check for any added / deleted files
+            int j = 0;
+            while (j < tempLarge)
+            {
+                bool removeFlag = false;
 
-            for (int i = 0; i < temp; i++)
+                for (int i = j; i < tempSmall; i++)
+                {
+                    if (oldFiles[j].name == actualFiles[i].name)
+                    {
+                        i = tempSmall;
+                        j++;
+                    }
+                    else if ( (i + 1) == tempSmall)
+                    {
+                        removeFlag = true;
+                    }
+                }
+
+                if (removeFlag)
+                {
+                    var deleteSheaf = oldFiles[j];
+                    oldFiles.Remove(deleteSheaf);
+                    j++;
+                }
+            }
+
+
+            //I doubt that code
+            for (int i = 0; i < tempLarge; i++)
             {
                 if (oldFiles[i].name == actualFiles[i].name)
                 {
-                    long oldTicks = long.Parse(oldFiles[i].lastModyfication.Ticks.ToString().Substring(0, 11)),
-                        newTicks = long.Parse(actualFiles[i].lastModyfication.Ticks.ToString().Substring(0, 11)); 
-                    //usunięcie ostatnich 7 znaków a nie substring
+                    string oldTicks = oldFiles[i].lastModyfication.Ticks.ToString(),
+                        newTicks = actualFiles[i].lastModyfication.Ticks.ToString();
 
-                    if (oldTicks < newTicks)
+                    oldTicks.Remove(oldTicks.Length - 7);
+                    newTicks.Remove(newTicks.Length - 7);
+
+                    long oldTicksParsed = long.Parse(oldTicks), newTicksParsed = long.Parse(newTicks);
+
+                    if (oldTicksParsed < newTicksParsed)
                     {
                         modyficatedFiles.Add(actualFiles[i]);
                     }
