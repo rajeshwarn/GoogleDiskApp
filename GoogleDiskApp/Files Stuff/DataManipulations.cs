@@ -32,71 +32,6 @@ namespace GoogleDiskApp.Files_Stuff
             }
         }
 
-        public static List<Sheaf> CheckForModyfications(List<Sheaf> oldFiles, List<Sheaf> actualFiles)
-        {
-            List<Sheaf> modyficatedFiles = new List<Sheaf>();
-            int tempLarge = 0, tempSmall = 0;
-            if (oldFiles.Count >= actualFiles.Count)
-            {
-                tempLarge = oldFiles.Count;
-                tempSmall = actualFiles.Count;
-            }
-            else
-            {
-                tempLarge = actualFiles.Count;
-                tempSmall = oldFiles.Count;
-            }
-            //check for any added / deleted files
-            int j = 0;
-            while (j < tempLarge)
-            {
-                bool removeFlag = false;
-
-                for (int i = j; i < tempSmall; i++)
-                {
-                    if (oldFiles[j].name == actualFiles[i].name)
-                    {
-                        i = tempSmall;
-                        j++;
-                    }
-                    else if ( (i + 1) == tempSmall)
-                    {
-                        removeFlag = true;
-                    }
-                }
-
-                if (removeFlag)
-                {
-                    var deleteSheaf = oldFiles[j];
-                    oldFiles.Remove(deleteSheaf);
-                    j++;
-                }
-            }
-
-
-            //I doubt that code
-            for (int i = 0; i < tempLarge; i++)
-            {
-                if (oldFiles[i].name == actualFiles[i].name)
-                {
-                    string oldTicks = oldFiles[i].lastModyfication.Ticks.ToString(),
-                        newTicks = actualFiles[i].lastModyfication.Ticks.ToString();
-
-                    oldTicks.Remove(oldTicks.Length - 7);
-                    newTicks.Remove(newTicks.Length - 7);
-
-                    long oldTicksParsed = long.Parse(oldTicks), newTicksParsed = long.Parse(newTicks);
-
-                    if (oldTicksParsed < newTicksParsed)
-                    {
-                        modyficatedFiles.Add(actualFiles[i]);
-                    }
-                }
-            }
-
-            return modyficatedFiles;
-        }
-
         public static List<Sheaf> ReadFromFile(string fileName)
         {
             return File.ReadAllLines(fileName)
@@ -112,5 +47,51 @@ namespace GoogleDiskApp.Files_Stuff
                 })
                 .ToList();
         }
+
+        public static List<Sheaf> CheckForModyfications(List<Sheaf> oldFiles, List<Sheaf> actualFiles)
+        {
+            List<Sheaf> modyficatedFiles = new List<Sheaf>();
+
+            for (int i = 0, count = oldFiles.Count; i < count; i++)
+            {
+
+                for (int j = 0, length = actualFiles.Count; j < length; j++)
+                {
+                    string oldPath = oldFiles[i].path,
+                        newPath = actualFiles[j].path;
+
+                    if (oldPath == newPath)
+                    {
+
+                        string oldTicks = oldFiles[i].lastModyfication.Ticks.ToString(),
+                            newTicks = actualFiles[j].lastModyfication.Ticks.ToString();
+
+                        oldTicks = oldTicks.Remove(oldTicks.Length - 7);
+                        newTicks = newTicks.Remove(newTicks.Length - 7);
+
+                        long oldTicksParsed = long.Parse(oldTicks),
+                            newTicksParsed = long.Parse(newTicks);
+
+                        if (oldTicksParsed < newTicksParsed)
+                        {
+                            modyficatedFiles.Add(actualFiles[j]);
+                        }
+
+                        Sheaf file = actualFiles[j];
+                        actualFiles.Remove(file);
+
+                        break;
+                    }
+                }
+            }
+
+            modyficatedFiles.AddRange(actualFiles);
+
+            modyficatedFiles = modyficatedFiles.OrderBy(file => file.path).ToList();
+
+            return modyficatedFiles;
+        }
+
+        
     }
 }

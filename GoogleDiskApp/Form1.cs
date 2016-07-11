@@ -13,7 +13,7 @@ namespace GoogleDiskApp
 {
     public partial class Form1 : Form
     {
-        private List<Sheaf> _log;
+        private List<Sheaf> modList;
         public Form1()
         {
             InitializeComponent();
@@ -23,8 +23,8 @@ namespace GoogleDiskApp
         {
             List<Sheaf> allFiles = DataManipulations.GetListOfFiles();
             string fileName = Environment.CurrentDirectory + "\\list.txt";
-            _log = DataManipulations.ReadFromFile(fileName);
-            DataManipulations.CheckForModyfications(_log, allFiles);
+            List<Sheaf> log = DataManipulations.ReadFromFile(fileName);
+            modList = DataManipulations.CheckForModyfications(log, allFiles);
         }
 
         private void aktualizujPlikŹródłowyToolStripMenuItem_Click(object sender, EventArgs e)
