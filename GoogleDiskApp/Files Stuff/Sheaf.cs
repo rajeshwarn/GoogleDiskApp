@@ -8,8 +8,8 @@ namespace GoogleDiskApp.Files_Stuff
 {
     class Sheaf
     {
-        public string path, name;
-        public DateTime lastModyfication;
+        private string path, name;
+        private DateTime lastModyfication;
 
         public Sheaf(string path, string name, DateTime lastModyfication)
         {
@@ -21,6 +21,36 @@ namespace GoogleDiskApp.Files_Stuff
         public Sheaf()
         {
             
+        }
+
+        public string Path
+        {
+            get { return path; }
+            set { path = value; }
+        }
+
+        public string Name {
+            get { return name; }
+            set { name = value; }
+        }
+
+        public DateTime LastModyfication
+        {
+            get { return lastModyfication;}
+            set { lastModyfication = value; }
+        }
+
+        public string FullDataSet
+        {
+            get
+            {
+
+                string subName = "";
+                int indexOfDot = name.IndexOf(".");
+                subName = name.Substring(0, indexOfDot);
+                return "Nazwa pliku: " + subName + " | Ostatnia modyfikacja: " + LastModyfication + " | Ścieżka: " + Path; 
+                
+            }
         }
     }
 }

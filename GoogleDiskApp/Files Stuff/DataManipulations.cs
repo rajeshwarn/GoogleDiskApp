@@ -26,7 +26,7 @@ namespace GoogleDiskApp.Files_Stuff
             {
                 foreach (Sheaf file in files)
                 {
-                    string text = file.path + "|" + file.name + "|" + file.lastModyfication;
+                    string text = file.Path + "|" + file.Name + "|" + file.LastModyfication;
                     writer.WriteLine(text);
                 }
             }
@@ -40,9 +40,9 @@ namespace GoogleDiskApp.Files_Stuff
                     var d = line.Split('|');
                     return new Sheaf
                     {
-                        path = d[0],
-                        name = d[1],
-                        lastModyfication = DateTime.ParseExact(d[2], "dd.MM.yyyy HH:mm:ss", CultureInfo.InvariantCulture),
+                        Path = d[0],
+                        Name = d[1],
+                        LastModyfication = DateTime.ParseExact(d[2], "dd.MM.yyyy HH:mm:ss", CultureInfo.InvariantCulture),
                     };
                 })
                 .ToList();
@@ -57,14 +57,14 @@ namespace GoogleDiskApp.Files_Stuff
 
                 for (int j = 0, length = actualFiles.Count; j < length; j++)
                 {
-                    string oldPath = oldFiles[i].path,
-                        newPath = actualFiles[j].path;
+                    string oldPath = oldFiles[i].Path,
+                        newPath = actualFiles[j].Path;
 
                     if (oldPath == newPath)
                     {
 
-                        string oldTicks = oldFiles[i].lastModyfication.Ticks.ToString(),
-                            newTicks = actualFiles[j].lastModyfication.Ticks.ToString();
+                        string oldTicks = oldFiles[i].LastModyfication.Ticks.ToString(),
+                            newTicks = actualFiles[j].LastModyfication.Ticks.ToString();
 
                         oldTicks = oldTicks.Remove(oldTicks.Length - 7);
                         newTicks = newTicks.Remove(newTicks.Length - 7);
@@ -87,7 +87,7 @@ namespace GoogleDiskApp.Files_Stuff
 
             modyficatedFiles.AddRange(actualFiles);
 
-            modyficatedFiles = modyficatedFiles.OrderBy(file => file.path).ToList();
+            modyficatedFiles = modyficatedFiles.OrderBy(file => file.Path).ToList();
 
             return modyficatedFiles;
         }

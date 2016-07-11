@@ -25,12 +25,19 @@ namespace GoogleDiskApp
             string fileName = Environment.CurrentDirectory + "\\list.txt";
             List<Sheaf> log = DataManipulations.ReadFromFile(fileName);
             modList = DataManipulations.CheckForModyfications(log, allFiles);
+            checkedListBox.DataSource = modList;
+            checkedListBox.DisplayMember = "FullDataSet";
         }
 
         private void aktualizujPlikŹródłowyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             List<Sheaf> allFiles = DataManipulations.GetListOfFiles();
             DataManipulations.CreateFilesLog(allFiles);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
