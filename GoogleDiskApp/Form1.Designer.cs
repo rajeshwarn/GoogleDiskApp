@@ -39,7 +39,7 @@
             this.pomocToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wyświetlPomocToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.autorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button1 = new System.Windows.Forms.Button();
+            this.uploadButton = new System.Windows.Forms.Button();
             this.checkedListBox = new System.Windows.Forms.CheckedListBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -77,6 +77,7 @@
             this.zakończToolStripMenuItem.Name = "zakończToolStripMenuItem";
             this.zakończToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
             this.zakończToolStripMenuItem.Text = "Zakończ";
+            this.zakończToolStripMenuItem.Click += new System.EventHandler(this.zakończToolStripMenuItem_Click);
             // 
             // opcjeToolStripMenuItem
             // 
@@ -93,6 +94,7 @@
             this.edytujŚcieżkęToolStripMenuItem.Name = "edytujŚcieżkęToolStripMenuItem";
             this.edytujŚcieżkęToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
             this.edytujŚcieżkęToolStripMenuItem.Text = "Edytuj ścieżkę";
+            this.edytujŚcieżkęToolStripMenuItem.Click += new System.EventHandler(this.edytujŚcieżkęToolStripMenuItem_Click);
             // 
             // daneUżytkownikaToolStripMenuItem
             // 
@@ -127,16 +129,17 @@
             this.autorToolStripMenuItem.Name = "autorToolStripMenuItem";
             this.autorToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.autorToolStripMenuItem.Text = "Autor";
+            this.autorToolStripMenuItem.Click += new System.EventHandler(this.autorToolStripMenuItem_Click);
             // 
-            // button1
+            // uploadButton
             // 
-            this.button1.Location = new System.Drawing.Point(529, 382);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Prześlij dane";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.uploadButton.Enabled = false;
+            this.uploadButton.Location = new System.Drawing.Point(529, 382);
+            this.uploadButton.Name = "uploadButton";
+            this.uploadButton.Size = new System.Drawing.Size(75, 23);
+            this.uploadButton.TabIndex = 1;
+            this.uploadButton.Text = "Prześlij dane";
+            this.uploadButton.UseVisualStyleBackColor = true;
             // 
             // checkedListBox
             // 
@@ -152,8 +155,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(616, 417);
             this.Controls.Add(this.checkedListBox);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.uploadButton);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
@@ -177,7 +181,7 @@
         private System.Windows.Forms.ToolStripMenuItem wyświetlPomocToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem autorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem wyszukajZmodyfikowanePlikiToolStripMenuItem;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button uploadButton;
         private System.Windows.Forms.CheckedListBox checkedListBox;
     }
 }

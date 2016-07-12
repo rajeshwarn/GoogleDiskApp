@@ -46,7 +46,7 @@ namespace GoogleDiskApp.Files_Stuff
             {
 
                 string subName = "";
-                int indexOfDot = name.IndexOf(".");
+                int indexOfDot = name.IndexOf(".", StringComparison.Ordinal);
                 subName = name.Substring(0, indexOfDot);
                 return "Nazwa pliku: " + subName + " | Ostatnia modyfikacja: " + LastModyfication + " | Ścieżka: " + Path; 
                 

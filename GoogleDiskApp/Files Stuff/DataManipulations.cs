@@ -11,7 +11,8 @@ namespace GoogleDiskApp.Files_Stuff
 {
     class DataManipulations
     {
-        private static readonly string[] Paths = Directory.GetFiles(@"c:\test\", "*.*",SearchOption.AllDirectories);
+        private static readonly string Path = "c:\\test"; //Form1.Path; 
+        private static readonly string[] Paths = Directory.GetFiles(@""+ Path, "*.*", SearchOption.AllDirectories);
 
         public static List<Sheaf> GetListOfFiles()
         {
