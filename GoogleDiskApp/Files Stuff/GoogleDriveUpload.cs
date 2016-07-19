@@ -14,7 +14,8 @@ namespace GoogleDiskApp.Files_Stuff
 {
     class GoogleDriveUpload
     {
-        public static void AutenthicationGoogleDrive()
+        //Check for already existing file "Daimto.GoogleDrive.Auth.Store"
+        private static DriveService AutenthicationGoogleDrive()
         {
             //Scopes for use with the Google Drive API
             string[] scopes = new string[] { DriveService.Scope.Drive,
@@ -32,12 +33,24 @@ namespace GoogleDiskApp.Files_Stuff
                                                                         CancellationToken.None,
                                                                         new FileDataStore("Daimto.GoogleDrive.Auth.Store")).Result;
 
-            var service = new DriveService(new BaseClientService.Initializer()
+            return new DriveService(new BaseClientService.Initializer()
             {
                 HttpClientInitializer = credential,
-                ApplicationName = "Drive API Sample",
+                ApplicationName = "Google Drive Uploader",
             });
-        }   
+        }
 
+        public static void UploadFileToGoogleDrive() //lista jako parametr
+        {
+            var service = AutenthicationGoogleDrive();
+            
+            /*
+            1. Sprawdzenie czy foldery istnieją
+            2. wybranie pliku
+            3. przesłanie
+            4. kolejny plik
+            */
+
+        }
     }
 }
