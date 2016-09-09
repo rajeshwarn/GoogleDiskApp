@@ -12,6 +12,7 @@ using Google.Apis.Auth.OAuth2;
 using Google.Apis.Drive.v3;
 using Google.Apis.Drive.v3.Data;
 using Google.Apis.Services;
+using Google.Apis.Util;
 using Google.Apis.Util.Store;
 using File = Google.Apis.Drive.v3.Data.File;
 
@@ -65,7 +66,7 @@ namespace GoogleDiskApp.Files_Stuff
         
         public static void UploadFile(List<Sheaf> listToUpload)
         {
-            var _service = AutenthicationGoogleDrive();
+            var service = AutenthicationGoogleDrive();
 
             foreach (var data in listToUpload)
             {
@@ -75,13 +76,13 @@ namespace GoogleDiskApp.Files_Stuff
                     MimeType = GetMimeType(data.Path),
                 };
 
-                if (data.FolderID != null)
+                if (data.FolderID != null && IsFolderAvaliable(service, data.FolderID))
                 {
-                    fileToUpload.Parents = data.Parents();
+                    fileToUpload.Parents = new List<string>() {data.FolderID};
                 }
                 else
                 {
-                    string parent = ParentIdFinder(_service, data);
+                    string parent = ParentIdFinder(service, data);
                     fileToUpload.Parents = new List<string>() {parent};
                 }
                 
@@ -90,7 +91,7 @@ namespace GoogleDiskApp.Files_Stuff
 
                 try
                 {
-                    FilesResource.CreateMediaUpload request = _service.Files.Create(fileToUpload, stream,
+                    FilesResource.CreateMediaUpload request = service.Files.Create(fileToUpload, stream,
                         fileToUpload.MimeType);
                     request.Upload();
                     MessageBox.Show("Uploaded");
@@ -127,7 +128,7 @@ namespace GoogleDiskApp.Files_Stuff
 
             if (folderStack.Count != 0)
             {
-                string tempParentId = "0B7QqR9_eO7xFczdjbnIwU0l1aWM";
+                string tempParentId = "0ALQqR9_eO7xFUk9PVA";
                 if (list.Files.Count != 0)
                 {
                     tempParentId = list.Files[0].Id;
@@ -199,15 +200,27 @@ namespace GoogleDiskApp.Files_Stuff
             return tempParentId;
         }
 
-        public static void Test() //service //lista plikow wrzucanych
+        private static bool IsFolderAvaliable(DriveService service, string parentId)
         {
-            var service = AutenthicationGoogleDrive(); //to delete
             var request = service.Files.List();
-            request.Q = "mimeType='application/vnd.google-apps.folder' and name = 'test' and trashed = false";
-            request.Fields = "nextPageToken, files(id, name, parents)";
+            request.Q = "mimeType='application/vnd.google-apps.folder' and '"+ parentId +"' in parents and trashed = false";
+            request.Fields = "files(id)";
             var list = request.Execute();
-            MessageBox.Show(list.Files[0].Id);
+            if (list.Files.Count != 0)
+            {
+                return true;
+            }
+            return false;
+        }
 
+        public static void Test()
+        {
+            var service = AutenthicationGoogleDrive();
+            var req = service.Files.List();
+            req.Q = "mimeType='application/vnd.google-apps.folder' and name = 'Piastonalia' or name = 'studia' and trashed = false";
+            req.Fields = "files(parents)";
+            var list = req.Execute();
+            MessageBox.Show(list.Files[0].Name +":"+list.Files[0].Parents[0] + Environment.NewLine + list.Files[0].Name + ":" + list.Files[1].Parents[0]);
         }
     }
 }
