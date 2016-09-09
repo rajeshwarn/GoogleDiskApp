@@ -75,7 +75,8 @@ namespace GoogleDiskApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            GoogleDriveUpload.AutenthicationGoogleDrive();
+            GoogleDriveUpload.UploadFile(modList);
+            //GoogleDriveUpload.Test();
         }
     }
 }

@@ -27,7 +27,8 @@ namespace GoogleDiskApp.Files_Stuff
             {
                 foreach (Sheaf file in files)
                 {
-                    string text = file.Path + "|" + file.Name + "|" + file.LastModyfication;
+                    string text = file.Path + "|" + file.Name + "|" + file.LastModyfication + "|" + file.FolderID;
+                    
                     writer.WriteLine(text);
                 }
             }
@@ -39,6 +40,17 @@ namespace GoogleDiskApp.Files_Stuff
                 .Select(line =>
                 {
                     var d = line.Split('|');
+
+                    if (d.Length == 4)
+                    {
+                        return new Sheaf
+                        {
+                            Path = d[0],
+                            Name = d[1],
+                            LastModyfication = DateTime.ParseExact(d[2], "dd.MM.yyyy HH:mm:ss", CultureInfo.InvariantCulture),
+                            FolderID = d[3],
+                        };
+                    }
                     return new Sheaf
                     {
                         Path = d[0],
@@ -75,6 +87,7 @@ namespace GoogleDiskApp.Files_Stuff
 
                         if (oldTicksParsed < newTicksParsed)
                         {
+                            actualFiles[j].FolderID = oldFiles[i].FolderID;
                             modyficatedFiles.Add(actualFiles[j]);
                         }
 
