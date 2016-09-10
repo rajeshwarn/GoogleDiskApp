@@ -63,8 +63,8 @@ namespace GoogleDiskApp.Files_Stuff
             }
             return mimeType;
         }
-        
-        public static void UploadFile(List<Sheaf> listToUpload)
+
+        public static List<Sheaf> UploadFile(List<Sheaf> listToUpload)
         {
             var service = AutenthicationGoogleDrive();
 
@@ -78,12 +78,13 @@ namespace GoogleDiskApp.Files_Stuff
 
                 if (data.FolderID != null && IsFolderAvaliable(service, data.FolderID))
                 {
-                    fileToUpload.Parents = new List<string>() {data.FolderID};
+                    fileToUpload.Parents = data.Parents();
                 }
                 else
                 {
                     string parent = ParentIdFinder(service, data);
-                    fileToUpload.Parents = new List<string>() {parent};
+                    data.FolderID = parent;
+                    fileToUpload.Parents = data.Parents();
                 }
                 
                 byte[] byteArray = System.IO.File.ReadAllBytes(data.Path);
@@ -101,8 +102,8 @@ namespace GoogleDiskApp.Files_Stuff
                 {
                     MessageBox.Show("An error occurred: " + e.Message);
                 }
-
             }
+            return listToUpload;
         }
 
         public static string ParentIdFinder(DriveService service, Sheaf file)

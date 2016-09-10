@@ -39,7 +39,7 @@ namespace GoogleDiskApp
             if (dr == DialogResult.Yes)
             {
                 List<Sheaf> allFiles = DataManipulations.GetListOfFiles();
-                DataManipulations.CreateFilesLog(allFiles);
+                DataManipulations.UpdateFileLog(allFiles, modList);
 
                 text = "Poprawnie zaktualizowałeś plik źródłowy";
                 caption = "Aktualizacja";
@@ -75,7 +75,7 @@ namespace GoogleDiskApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            GoogleDriveUpload.UploadFile(modList);
+            modList = GoogleDriveUpload.UploadFile(modList);
             //GoogleDriveUpload.Test();
         }
     }

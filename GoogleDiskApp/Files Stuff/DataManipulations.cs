@@ -19,16 +19,40 @@ namespace GoogleDiskApp.Files_Stuff
             return (from path in Paths let fileInfo = new FileInfo(path) select new Sheaf(path, fileInfo.Name, fileInfo.LastWriteTime)).ToList();
         }
 
-        public static void CreateFilesLog(List<Sheaf> files)
+        public static void CreateFilesLog(List<Sheaf> fileList)
         {
             string path = Environment.CurrentDirectory;
 
             using (StreamWriter writer = new StreamWriter(path + @"\list.txt"))
             {
-                foreach (Sheaf file in files)
+                foreach (Sheaf file in fileList)
                 {
-                    string text = file.Path + "|" + file.Name + "|" + file.LastModyfication + "|" + file.FolderID;
+                    string text = file.Path + "|" + file.Name + "|" + file.LastModyfication;
                     
+                    writer.WriteLine(text);
+                }
+            }
+        }
+
+        public static void UpdateFileLog(List<Sheaf> fileList, List<Sheaf> uploadedList)
+        {
+            string path = Environment.CurrentDirectory;
+
+            using (StreamWriter writer = new StreamWriter(path + @"\list.txt"))
+            {
+                foreach (Sheaf file in fileList)
+                {
+                    string text = file.Path + "|" + file.Name + "|" + file.LastModyfication;
+
+                    foreach (Sheaf uploaded in uploadedList)
+                    {
+                        if (file.Path == uploaded.Path)
+                        {
+                            text = text + "|" + uploaded.FolderID;
+                            break;
+                        }
+                    }
+
                     writer.WriteLine(text);
                 }
             }
