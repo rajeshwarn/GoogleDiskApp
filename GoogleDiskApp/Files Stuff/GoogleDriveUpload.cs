@@ -106,7 +106,7 @@ namespace GoogleDiskApp.Files_Stuff
             return listToUpload;
         }
 
-        public static string ParentIdFinder(DriveService service, Sheaf file)
+        private static string ParentIdFinder(DriveService service, Sheaf file)
         {
             List<string> folderList = GetFolderList(file.Path);
             FileList list = new FileList();
@@ -206,7 +206,15 @@ namespace GoogleDiskApp.Files_Stuff
             var request = service.Files.List();
             request.Q = "mimeType='application/vnd.google-apps.folder' and '"+ parentId +"' in parents and trashed = false";
             request.Fields = "files(id)";
-            var list = request.Execute();
+            FileList list = new FileList();
+            try
+            {
+                list = request.Execute();
+            }catch (Exception e){
+
+                MessageBox.Show(e.Message);
+            }
+
             if (list.Files.Count != 0)
             {
                 return true;
