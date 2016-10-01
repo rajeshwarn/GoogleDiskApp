@@ -12,6 +12,7 @@ using Google.Apis.Auth.OAuth2;
 using Google.Apis.Drive.v3;
 using Google.Apis.Drive.v3.Data;
 using Google.Apis.Services;
+using Google.Apis.Upload;
 using Google.Apis.Util;
 using Google.Apis.Util.Store;
 using File = Google.Apis.Drive.v3.Data.File;
@@ -20,8 +21,64 @@ namespace GoogleDiskApp.Files_Stuff
 {
     class GoogleDriveUpload
     {
+        private IProggressReporter _proggressReporter;
+        public GoogleDriveUpload(IProggressReporter proggressReporter)
+        {
+            _proggressReporter = proggressReporter;
+        }
+
+        public async Task<List<Sheaf>> UploadFile(List<Sheaf> listToUpload)
+        {
+            var service = AutenthicationGoogleDrive();
+
+            long fileIdx = 1;
+            long filesCount = listToUpload.Count;
+
+            foreach (var data in listToUpload)
+            {
+                File fileToUpload = new File
+                {
+                    Name = data.Name,
+                    MimeType = GetMimeType(data.Path),
+                };
+
+                if (data.FolderId != null && IsFolderAvaliable(service, data.FolderId))
+                {
+                    fileToUpload.Parents = data.Parents();
+                }
+                else
+                {
+                    string parent = ParentIdFinder(service, data);
+                    data.FolderId = parent;
+                    fileToUpload.Parents = data.Parents();
+                }
+                
+                byte[] byteArray = System.IO.File.ReadAllBytes(data.Path);
+                MemoryStream stream = new MemoryStream(byteArray);
+
+                try
+                {
+                    FilesResource.CreateMediaUpload request = service.Files.Create(fileToUpload, stream,
+                        fileToUpload.MimeType);
+
+                    request.ProgressChanged += (up) => _proggressReporter.ReportPartial(up.BytesSent, byteArray.Length);
+                    request.ChunkSize = FilesResource.CreateMediaUpload.MinimumChunkSize*5;
+
+                    await request.UploadAsync();
+
+                }
+                catch (Exception e)
+                {
+                    MessageBox.Show("An error occurred: " + e.Message);
+                }
+
+                _proggressReporter.ReportTotal(fileIdx++, filesCount);
+            }
+            return listToUpload;
+        }
+        
         //Check for already existing file "Daimto.GoogleDrive.Auth.Store"
-        private static DriveService AutenthicationGoogleDrive()
+        private DriveService AutenthicationGoogleDrive()
         {
             //Scopes for use with the Google Drive API
             string[] scopes = new string[]
@@ -30,7 +87,7 @@ namespace GoogleDiskApp.Files_Stuff
                 DriveService.Scope.DriveFile
             };
             var clientId = "660688416909-iupbi3tm38bu89a3ij05q8o5spj5chn1.apps.googleusercontent.com";
-                // From https://console.developers.google.com
+            // From https://console.developers.google.com
             var clientSecret = "i4vPiaa4rmwq6Gc07lI2Nken"; // From https://console.developers.google.com
             // here is where we Request the user to give us access, or use the Refresh Token that was previously stored in %AppData%
             var credential = GoogleWebAuthorizationBroker.AuthorizeAsync(new ClientSecrets
@@ -50,7 +107,7 @@ namespace GoogleDiskApp.Files_Stuff
             });
         }
 
-        private static string GetMimeType(string filePath)
+        private string GetMimeType(string filePath)
         {
             string mimeType = "application/unknown";
             var extension = System.IO.Path.GetExtension(filePath);
@@ -64,54 +121,12 @@ namespace GoogleDiskApp.Files_Stuff
             return mimeType;
         }
 
-        public static List<Sheaf> UploadFile(List<Sheaf> listToUpload)
-        {
-            var service = AutenthicationGoogleDrive();
-
-            foreach (var data in listToUpload)
-            {
-                File fileToUpload = new File
-                {
-                    Name = data.Name,
-                    MimeType = GetMimeType(data.Path),
-                };
-
-                if (data.FolderID != null && IsFolderAvaliable(service, data.FolderID))
-                {
-                    fileToUpload.Parents = data.Parents();
-                }
-                else
-                {
-                    string parent = ParentIdFinder(service, data);
-                    data.FolderID = parent;
-                    fileToUpload.Parents = data.Parents();
-                }
-                
-                byte[] byteArray = System.IO.File.ReadAllBytes(data.Path);
-                MemoryStream stream = new MemoryStream(byteArray);
-
-                try
-                {
-                    FilesResource.CreateMediaUpload request = service.Files.Create(fileToUpload, stream,
-                        fileToUpload.MimeType);
-                    request.Upload();
-                    MessageBox.Show("Uploaded");
-
-                }
-                catch (Exception e)
-                {
-                    MessageBox.Show("An error occurred: " + e.Message);
-                }
-            }
-            return listToUpload;
-        }
-
-        private static string ParentIdFinder(DriveService service, Sheaf file)
+        private string ParentIdFinder(DriveService service, Sheaf file)
         {
             List<string> folderList = GetFolderList(file.Path);
-            FileList list = new FileList();
-            Stack<string> folderStack = new Stack<string>();
-            string parentID = null;
+            var folderStack = new Stack<string>();
+            string parentId;
+            var list = new FileList();
 
             foreach (var folder in folderList)
             {
@@ -134,17 +149,17 @@ namespace GoogleDiskApp.Files_Stuff
                 {
                     tempParentId = list.Files[0].Id;
                 }
-                parentID = LastParentId(service, folderStack, tempParentId);
+                parentId = GetParentId(service, folderStack, tempParentId);
             }
             else
             {
-                parentID = list.Files[0].Id;
+                parentId = list.Files[0].Id;
             }
 
-            return parentID;
+            return parentId;
         }
 
-        private static List<string> GetFolderList(string filePath)
+        private List<string> GetFolderList(string filePath)
         {
             string path = filePath;
             var slash = path.LastIndexOf("\\", StringComparison.Ordinal);
@@ -173,7 +188,7 @@ namespace GoogleDiskApp.Files_Stuff
             return folderList;
         }
 
-        private static string LastParentId(DriveService service, Stack<string> folderStack, string parentID)
+        private string GetParentId(DriveService service, Stack<string> folderStack, string lastParentId)
         {
             var folder = new File();
             string tempParentId = "";
@@ -185,7 +200,7 @@ namespace GoogleDiskApp.Files_Stuff
                 folder.MimeType = "application/vnd.google-apps.folder";
                 if (i == 0)
                 {
-                    folder.Parents = new List<string>() {parentID};
+                    folder.Parents = new List<string>() {lastParentId};
                 }
                 else
                 {
@@ -201,7 +216,7 @@ namespace GoogleDiskApp.Files_Stuff
             return tempParentId;
         }
 
-        private static bool IsFolderAvaliable(DriveService service, string parentId)
+        private bool IsFolderAvaliable(DriveService service, string parentId)
         {
             var request = service.Files.List();
             request.Q = "mimeType='application/vnd.google-apps.folder' and '"+ parentId +"' in parents and trashed = false";
@@ -221,15 +236,6 @@ namespace GoogleDiskApp.Files_Stuff
             }
             return false;
         }
-
-        public static void Test()
-        {
-            var service = AutenthicationGoogleDrive();
-            var req = service.Files.List();
-            req.Q = "mimeType='application/vnd.google-apps.folder' and name = 'Piastonalia' or name = 'studia' and trashed = false";
-            req.Fields = "files(parents)";
-            var list = req.Execute();
-            MessageBox.Show(list.Files[0].Name +":"+list.Files[0].Parents[0] + Environment.NewLine + list.Files[0].Name + ":" + list.Files[1].Parents[0]);
-        }
+        
     }
 }

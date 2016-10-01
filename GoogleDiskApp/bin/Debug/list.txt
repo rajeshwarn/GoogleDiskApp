@@ -1,6 +1,1 @@
-c:\test\1.txt|1|10.09.2016 11:15:48|0B7QqR9_eO7xFdHNUUGtTVVNaZDA
-c:\test\2.txt|2|10.09.2016 11:15:56|0B7QqR9_eO7xFdHNUUGtTVVNaZDA
-c:\test\4.txt|4|10.09.2016 11:15:52|0B7QqR9_eO7xFdHNUUGtTVVNaZDA
-c:\test\5.txt|5|09.07.2016 12:30:45
-c:\test\volwo\Nowy WinRAR ZIP archive.zip|Nowy WinRAR ZIP archive|10.09.2016 11:16:26|0B7QqR9_eO7xFamo4VmQ3dGxLTE0
-c:\test\volwo\asd\dsa\Nowy Rysunek programu Microsoft Visio.vsd|Nowy Rysunek programu Microsoft Visio|10.09.2016 11:16:20|0B7QqR9_eO7xFNWZ6OVJmOFVoSnM
+c:\test\volwo\Nowy WinRAR ZIP archive.zip|Nowy WinRAR ZIP archive|10.09.2016 11:16:26|0B7QqR9_eO7xFaVV6b1dweXZSVUU
