@@ -1,48 +1,53 @@
-<?xml version="1.0"?>
-<files>
-    <file>
-        <name>03-szad-akrobiografia</name>
-        <path>c:\test\03-szad-akrobiografia.mp3</path>
-        <date>02/03/2016 11:54:23</date>
-    </file>
-    <file>
-        <name>1</name>
-        <path>c:\test\1.txt</path>
-        <date>09/14/2016 22:07:19</date>
-    </file>
-    <file>
-        <name>2</name>
-        <path>c:\test\2.txt</path>
-        <date>09/10/2016 11:15:56</date>
-    </file>
-    <file>
-        <name>4</name>
-        <path>c:\test\4.txt</path>
-        <date>09/14/2016 22:07:13</date>
-    </file>
-    <file>
-        <name>5</name>
-        <path>c:\test\5.txt</path>
-        <date>07/09/2016 12:30:45</date>
-    </file>
-    <file>
-        <name>Nowy WinRAR ZIP archive</name>
-        <path>c:\test\volwo\Nowy WinRAR ZIP archive.zip</path>
-        <date>09/10/2016 11:16:26</date>
-    </file>
-    <file>
-        <name>Nowy PowerDesigner 15 Logical Data Model File</name>
-        <path>c:\test\volwo\asd\Nowy PowerDesigner 15 Logical Data Model File.LDM</path>
-        <date>09/14/2016 22:07:32</date>
-    </file>
-    <file>
-        <name>brain2</name>
-        <path>c:\test\volwo\asd\dsa\brain2.png</path>
-        <date>12/16/2015 12:09:37</date>
-    </file>
-    <file>
-        <name>Nowy Rysunek programu Microsoft Visio</name>
-        <path>c:\test\volwo\asd\dsa\Nowy Rysunek programu Microsoft Visio.vsd</path>
-        <date>09/10/2016 11:16:20</date>
-    </file>
-</files>
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSheaf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sheaf>
+    <Path>C:\\test\03-szad-akrobiografia.mp3</Path>
+    <Name>03-szad-akrobiografia</Name>
+    <LastModyfication>2016-02-03T11:54:23.506+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\test\1.txt</Path>
+    <Name>1</Name>
+    <LastModyfication>2016-10-02T14:15:51.0795168+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\test\2.txt</Path>
+    <Name>2</Name>
+    <LastModyfication>2016-09-10T11:15:56.9098418+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\test\4.txt</Path>
+    <Name>4</Name>
+    <LastModyfication>2016-09-14T22:07:13.8624851+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\test\5.txt</Path>
+    <Name>5</Name>
+    <LastModyfication>2016-07-09T12:30:45.1513532+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\test\Nowy Microsoft Access Baza danych.accdb</Path>
+    <Name>Nowy Microsoft Access Baza danych</Name>
+    <LastModyfication>2016-10-02T14:15:57.3253463+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\test\volwo\Nowy WinRAR ZIP archive.zip</Path>
+    <Name>Nowy WinRAR ZIP archive</Name>
+    <LastModyfication>2016-09-10T11:16:26.6176548+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\test\volwo\asd\Nowy PowerDesigner 15 Logical Data Model File.LDM</Path>
+    <Name>Nowy PowerDesigner 15 Logical Data Model File</Name>
+    <LastModyfication>2016-09-14T22:07:32.1821435+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\test\volwo\asd\dsa\brain2.png</Path>
+    <Name>brain2</Name>
+    <LastModyfication>2015-12-16T12:09:37.4799313+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\test\volwo\asd\dsa\Nowy Rysunek programu Microsoft Visio.vsd</Path>
+    <Name>Nowy Rysunek programu Microsoft Visio</Name>
+    <LastModyfication>2016-09-10T11:16:20.5455138+02:00</LastModyfication>
+  </Sheaf>
+</ArrayOfSheaf>

@@ -15,7 +15,7 @@ namespace GoogleDiskApp
 {
     public partial class Form1 : Form
     {
-        private List<Sheaf> filesList;
+        private List<Sheaf> _fileList;
         private ProgressReporter _progressReporter;
         private GoogleDriveUpload _googleDriveUpload;
         private object _syncObj = new object();
@@ -43,6 +43,8 @@ namespace GoogleDiskApp
             _progressReporter = InitializeProgressReporter();
 
             _googleDriveUpload = new GoogleDriveUpload(_progressReporter);
+
+            
         }
 
         private ProgressReporter InitializeProgressReporter()
@@ -81,18 +83,14 @@ namespace GoogleDiskApp
 
         private void AktualizujPlikŹródłowyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UpdateFile("Czy na pewno chcesz zaktualizować plik źródłowy?",filesList);
+            UpdateFile("Czy na pewno chcesz zaktualizować plik źródłowy?",_fileList);
         }
 
         private void wyszukajZmodyfikowanePlikiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            List<Sheaf> allFiles = DataManipulations.GetListOfFiles();
-            string filePath = Environment.CurrentDirectory + "\\list.txt";
-            //var acualFileList = DataManipulations.ReadFromFile(filePath);
+            _fileList = DataManipulations.CheckForModyfications();
 
-            //filesList = DataManipulations.CheckForModyfications(acualFileList, allFiles);
-
-            checkedListBox.DataSource = filesList;
+            checkedListBox.DataSource = _fileList;
             checkedListBox.DisplayMember = "FullDataSet";
             uploadButton.Enabled = true;
             aktualizujPlikŹródłowyToolStripMenuItem.Enabled = true;
@@ -131,7 +129,7 @@ namespace GoogleDiskApp
                 MessageBoxIcon.Warning);
             if (dr == DialogResult.Yes)
             {
-                //DataManipulations.CreateFilesLog(fileList);
+                DataManipulations.UpdateXmlLog(fileList);
 
                 text = "Poprawnie zaktualizowałeś plik źródłowy";
                 caption = "Aktualizacja";
@@ -148,12 +146,15 @@ namespace GoogleDiskApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (filesList == null || filesList.Count == 0)
-            {
-                filesList = DataManipulations.GetListOfFiles();
-            }
+            //if (_fileList == null || _fileList.Count == 0)
+            //{
+            //    _fileList = DataManipulations.GetListOfFiles();
+            ////}
+            //var rnd = DataManipulations.GetListOfFiles();
 
-            DataManipulations.UpdateFileLog(filesList);
+            //DataManipulations.UpdateXmlLog(rnd);
+            //var aa = DataManipulations.ReadFromXml();
+            //var bb = DataManipulations.CheckForModyfications(aa);
         }
     }
 }

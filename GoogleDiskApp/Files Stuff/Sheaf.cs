@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GoogleDiskApp.Files_Stuff
 {
-    class Sheaf
+    public class Sheaf
     {
         private string _path, _name, _folderId;
         private DateTime _lastModyfication;
@@ -37,9 +37,13 @@ namespace GoogleDiskApp.Files_Stuff
 
         public string Name {
             get
-            {   
+            {
                 int indexOfDot = _name.IndexOf(".", StringComparison.Ordinal);
-                return _name.Substring(0, indexOfDot); 
+                if (indexOfDot != -1)
+                {
+                    return _name.Substring(0, indexOfDot);
+                }
+                return _name;
             }
             set { _name = value; }
         }

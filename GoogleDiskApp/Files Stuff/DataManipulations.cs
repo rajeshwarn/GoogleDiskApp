@@ -9,19 +9,19 @@ using System.Threading;
 using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Linq;
+using System.Xml.Serialization;
+using Google.Apis.Drive.v3.Data;
+using Google.Apis.Json;
 using Org.BouncyCastle.Asn1.Crmf;
+using File = System.IO.File;
 
 namespace GoogleDiskApp.Files_Stuff
 {
     class DataManipulations
     {
-        private static readonly string[] Paths = Directory.GetFiles(@"c:\\test", "*.*", SearchOption.AllDirectories);
-        private static string _path = Environment.CurrentDirectory + "\\list.xml";
-
-        public static List<Sheaf> GetListOfFiles()
-        {
-            return (from path in Paths let fileInfo = new FileInfo(path) select new Sheaf(path, fileInfo.Name, fileInfo.LastWriteTime)).ToList();
-        }
+        private static readonly string[] _files = Directory.GetFiles(@"C:\\test", "*.*", SearchOption.AllDirectories);
+        private static readonly string _path = Environment.CurrentDirectory + "\\list.xml";
+        private static readonly XDocument _xmlDoc = XDocument.Load(_path);
 
         //public static void CreateFilesLog(List<Sheaf> fileList)
         //{
@@ -80,95 +80,118 @@ namespace GoogleDiskApp.Files_Stuff
         //        .ToList();
         //}
 
-        public static List<Sheaf> CheckForModyfications(List<Sheaf> oldFiles, List<Sheaf> actualFiles)
+        public static List<Sheaf> CheckForModyfications()
         {
-            List<Sheaf> modyficatedFiles = new List<Sheaf>();
+            List<Sheaf> filesToUploadList = new List<Sheaf>();
+            var actualFileList = GetListOfFiles();
+            var uploadFileList = ReadFromXml();
 
-            for (int i = 0, count = oldFiles.Count; i < count; i++)
+            foreach (Sheaf file in uploadFileList)
             {
-                Sheaf oldFile = oldFiles[i];
-
-                for (int j = 0, length = actualFiles.Count; j < length; j++)
+                foreach (Sheaf sheaf in actualFileList)
                 {
-                    
-                    Sheaf newFile = actualFiles[j];
-
-                    if (oldFile.Path == newFile.Path)
+                    if (file.Path == sheaf.Path)
                     {
+                        int dateCompare = DateTime.Compare(file.LastModyfication, sheaf.LastModyfication);
 
-                        string oldTicks = oldFile.LastModyfication.Ticks.ToString(),
-                            newTicks = newFile.LastModyfication.Ticks.ToString();
-
-                        oldTicks = oldTicks.Remove(oldTicks.Length - 7);
-                        newTicks = newTicks.Remove(newTicks.Length - 7);
-
-                        long oldTicksParsed = long.Parse(oldTicks),
-                            newTicksParsed = long.Parse(newTicks);
-
-                        if (oldTicksParsed < newTicksParsed)
+                        if (dateCompare == 1)
                         {
-                            newFile.FolderId = oldFile.FolderId;
-                            modyficatedFiles.Add(newFile);
+                            sheaf.FolderId = file.FolderId;
+                            filesToUploadList.Add(sheaf);
                         }
-                        
-                        actualFiles.RemoveAt(j);
-
+                        actualFileList.Remove(sheaf);
                         break;
                     }
                 }
             }
 
-            modyficatedFiles.AddRange(actualFiles);
+            filesToUploadList.AddRange(actualFileList);
 
-            modyficatedFiles = modyficatedFiles.OrderBy(file => file.Path).ToList();
+            filesToUploadList = filesToUploadList.OrderBy(file => file.Path).ToList();
 
-            return modyficatedFiles;
+            return filesToUploadList;
         }
 
-        public static void UpdateFileLog(List<Sheaf> fileList)
+        public static void UpdateXmlLog(List<Sheaf> fileList)
         {
-            
-            var writer = new XmlTextWriter(_path, null);
-
-            writer.Formatting = Formatting.Indented;
-            writer.Indentation = 4;
-            writer.WriteStartDocument();
-            writer.WriteStartElement("files");
-
-            foreach (Sheaf file in fileList)
+            //znalezienie elementu
+            var listFromXml = new List<Sheaf>();
+            try
             {
-                writer.WriteStartElement("file");
+                listFromXml = ReadFromXml();
+            }
+            catch (Exception e)
+            {
 
-                writer.WriteStartElement("name");
-                writer.WriteString(file.Name);
-                writer.WriteEndElement();
-
-                writer.WriteStartElement("path");
-                writer.WriteString(file.Path);
-                writer.WriteEndElement();
-
-                writer.WriteStartElement("date");
-                writer.WriteString(file.LastModyfication.ToString(CultureInfo.InvariantCulture));
-                writer.WriteEndElement();
-
-                if (!string.IsNullOrEmpty(file.FolderId))
+            }
+            finally
+            {
+                foreach (Sheaf sheaf in fileList)
                 {
-                    writer.WriteStartElement("folderId");
-                    writer.WriteString(file.FolderId);
-                    writer.WriteEndElement();
+                    var contain = listFromXml.Contains(sheaf);
+                    if (contain)
+                    {
+                        //dopisanie go do xmla
+                        AddToXml(sheaf);
+                        fileList.Remove(sheaf);
+                    }
                 }
 
-                writer.WriteEndElement();
+                //dopisanie reszty elementow do xmla
+                AddToXml(fileList);
             }
-
-            writer.WriteEndElement();
-            writer.WriteEndDocument();
-            writer.Close();
         }
 
-        public static List<Sheaf> ReadFromXML()
+        private static void AddToXml(List<Sheaf> fileList)
         {
+            var serializer = new XmlSerializer(typeof(List<Sheaf>));
+            var stream = new StreamWriter(_path);
+            serializer.Serialize(stream, fileList);
+        }
+
+        private static void AddToXml(Sheaf sheaf)
+        {
+            var root = _xmlDoc.Root;
+            var data = from el in root.Elements("Sheaf")
+                where (string) el.Element("Path") == sheaf.Path
+                select el;
+
+            foreach (XElement el in data)
+            {
+                el.Element("Path").Value = sheaf.Path;
+                
+            }
             
-        } 
+        }
+
+        private static List<Sheaf> ReadFromXml()
+        {
+            var fileList = _xmlDoc.Descendants("Sheaf").Select(f =>
+            {
+                var sheaf = new Sheaf
+                {
+                    Name = f.Element("Name").Value,
+                    Path = f.Element("Path").Value,
+                    LastModyfication = DateTime.Parse(f.Element("LastModyfication").Value)
+                };
+
+                var tempFolderId = f.Element("FolderId");
+                if (tempFolderId != null && tempFolderId.Value == "")
+                {
+                    sheaf.FolderId = tempFolderId.Value;
+                }
+
+                return sheaf;
+            }).ToList();
+
+            return fileList;
+        }
+
+        private static List<Sheaf> GetListOfFiles()
+        {
+            return (from path in _files let fileInfo = new FileInfo(path) select new Sheaf(path, fileInfo.Name, fileInfo.LastWriteTime)).ToList();
+        }
+
     }
 }
+
