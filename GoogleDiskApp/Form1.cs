@@ -88,7 +88,10 @@ namespace GoogleDiskApp
 
         private void wyszukajZmodyfikowanePlikiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            _fileList = DataManipulations.CheckForModyfications();
+            var xmlFiles = DataManipulations.ReadFromXml();
+            var actualFiles = DataManipulations.GetListOfFiles();
+
+            _fileList = DataManipulations.CheckForModyfications(actualFiles, xmlFiles);
 
             checkedListBox.DataSource = _fileList;
             checkedListBox.DisplayMember = "FullDataSet";

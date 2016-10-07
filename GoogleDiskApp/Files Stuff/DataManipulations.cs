@@ -21,74 +21,17 @@ namespace GoogleDiskApp.Files_Stuff
     {
         private static readonly string[] _files = Directory.GetFiles(@"C:\\test", "*.*", SearchOption.AllDirectories);
         private static readonly string _path = Environment.CurrentDirectory + "\\list.xml";
-        private static readonly XDocument _xmlDoc = XDocument.Load(_path);
+        private static readonly string _fileName = "list.xml";
+        
 
-        //public static void CreateFilesLog(List<Sheaf> fileList)
-        //{
-        //    string path = Environment.CurrentDirectory;
-        //    var list = ReadFromFile(path + "\\list.txt");
-
-        //    for (int i = 0, count = list.Count; i < count; i++)
-        //    {
-        //        Sheaf fileFromTxt = list[i];
-        //        for (int j = 0, length = fileList.Count; j < length; j++)
-        //        {
-        //            Sheaf file = fileList[j];
-
-        //            //if (fileFromTxt.Path) ;
-        //        }
-        //    }
-
-        //    //using (StreamWriter writer = new StreamWriter(path + @"\list.txt"))
-        //    //{
-        //    //    foreach (Sheaf file in fileList)
-        //    //    {
-        //    //        string text = file.Path + "|" + file.Name + "|" + file.LastModyfication;
-
-        //    //        if (!string.IsNullOrEmpty(file.FolderId))
-        //    //        {
-        //    //            text = text + "|" + file.FolderId;
-        //    //        }
-
-        //    //        writer.WriteLine(text);
-        //    //    }
-        //    //}
-        //}
-
-        //public static List<Sheaf> ReadFromFile(string filePath)
-        //{
-        //    return File.ReadAllLines(filePath)
-        //        .Select(line =>
-        //        {
-        //            var d = line.Split('|');
-
-        //            var sheaf = new Sheaf
-        //            {
-        //                Path = d[0],
-        //                Name = d[1],
-        //                LastModyfication =
-        //                    DateTime.ParseExact(d[2], "dd.MM.yyyy HH:mm:ss", CultureInfo.InvariantCulture),
-        //            };
-
-        //            if (d.Length == 4)
-        //            {
-        //                sheaf.FolderId = d[3];
-        //            }
-
-        //            return sheaf;
-        //        })
-        //        .ToList();
-        //}
-
-        public static List<Sheaf> CheckForModyfications()
+        public static List<Sheaf> CheckForModyfications(List<Sheaf> filesOnDriveList, List<Sheaf> filesInXmlList)
         {
             List<Sheaf> filesToUploadList = new List<Sheaf>();
-            var actualFileList = GetListOfFiles();
-            var uploadFileList = ReadFromXml();
+            var removeList = new List<Sheaf>();
 
-            foreach (Sheaf file in uploadFileList)
+            foreach(Sheaf file in filesOnDriveList)
             {
-                foreach (Sheaf sheaf in actualFileList)
+                foreach (Sheaf sheaf in filesInXmlList)
                 {
                     if (file.Path == sheaf.Path)
                     {
@@ -99,13 +42,15 @@ namespace GoogleDiskApp.Files_Stuff
                             sheaf.FolderId = file.FolderId;
                             filesToUploadList.Add(sheaf);
                         }
-                        actualFileList.Remove(sheaf);
+                        removeList.Add(file);
                         break;
                     }
                 }
             }
 
-            filesToUploadList.AddRange(actualFileList);
+            filesOnDriveList = RemoveFilesFromList(filesOnDriveList, removeList);
+
+            filesToUploadList.AddRange(filesOnDriveList);
 
             filesToUploadList = filesToUploadList.OrderBy(file => file.Path).ToList();
 
@@ -114,32 +59,39 @@ namespace GoogleDiskApp.Files_Stuff
 
         public static void UpdateXmlLog(List<Sheaf> fileList)
         {
-            //znalezienie elementu
-            var listFromXml = new List<Sheaf>();
-            try
-            {
-                listFromXml = ReadFromXml();
-            }
-            catch (Exception e)
-            {
+            var xmlList = ReadFromXml();
+            var removeList = new List<Sheaf>();
 
-            }
-            finally
+            foreach(Sheaf data in fileList)
             {
-                foreach (Sheaf sheaf in fileList)
+                foreach (Sheaf xmlData in xmlList)
                 {
-                    var contain = listFromXml.Contains(sheaf);
-                    if (contain)
+                    if (data.Path == xmlData.Path)
                     {
-                        //dopisanie go do xmla
-                        AddToXml(sheaf);
-                        fileList.Remove(sheaf);
+                        AddToXml(data);
+                        removeList.Add(data);
+                        break;
                     }
                 }
-
-                //dopisanie reszty elementow do xmla
-                AddToXml(fileList);
             }
+
+            fileList = RemoveFilesFromList(fileList, removeList);
+
+            xmlList.AddRange(fileList);
+            xmlList = DeleteFromXml(xmlList);
+
+            xmlList.OrderBy(e => e.Path).ToList();
+
+            AddToXml(xmlList);
+        }
+
+        private static List<Sheaf> RemoveFilesFromList(List<Sheaf> listOfFiles, List<Sheaf> filesToBeRemovedList)
+        {
+            foreach (var trash in filesToBeRemovedList)
+            {
+                listOfFiles.Remove(trash);
+            }
+            return listOfFiles;
         }
 
         private static void AddToXml(List<Sheaf> fileList)
@@ -147,26 +99,53 @@ namespace GoogleDiskApp.Files_Stuff
             var serializer = new XmlSerializer(typeof(List<Sheaf>));
             var stream = new StreamWriter(_path);
             serializer.Serialize(stream, fileList);
+            stream.Close();
         }
 
         private static void AddToXml(Sheaf sheaf)
         {
-            var root = _xmlDoc.Root;
+            var xmlDoc = XDocument.Load(_path);
+            var root = xmlDoc.Root;
             var data = from el in root.Elements("Sheaf")
-                where (string) el.Element("Path") == sheaf.Path
+                where el.Element("Path").Value == sheaf.Path
                 select el;
 
             foreach (XElement el in data)
             {
-                el.Element("Path").Value = sheaf.Path;
-                
+                el.Element("LastModyfication").Value = sheaf.LastModyfication.ToLongDateString();
             }
-            
+            root.Save(_fileName);
         }
 
-        private static List<Sheaf> ReadFromXml()
+        private static List<Sheaf> DeleteFromXml(List<Sheaf> xmlList)
         {
-            var fileList = _xmlDoc.Descendants("Sheaf").Select(f =>
+            bool isOnDrive;
+            var trashList = new List<Sheaf>();
+            var driveList = GetListOfFiles();
+            foreach(var xmlNode in xmlList)
+            {
+                isOnDrive = false;
+                foreach (var data in driveList)
+                {
+                    if (data.Path == xmlNode.Path)
+                    {
+                        isOnDrive = true;
+                        break;
+                    }
+                }
+                if (!isOnDrive)
+                {
+                    trashList.Add(xmlNode);
+                }
+            }
+            var list = RemoveFilesFromList(xmlList, trashList);
+            return list;
+        }
+
+        public static List<Sheaf> ReadFromXml()
+        {
+            XDocument xmlDoc = XDocument.Load(_path);
+            var fileList = xmlDoc.Descendants("Sheaf").Select(f =>
             {
                 var sheaf = new Sheaf
                 {
@@ -176,7 +155,7 @@ namespace GoogleDiskApp.Files_Stuff
                 };
 
                 var tempFolderId = f.Element("FolderId");
-                if (tempFolderId != null && tempFolderId.Value == "")
+                if (tempFolderId != null)
                 {
                     sheaf.FolderId = tempFolderId.Value;
                 }
@@ -187,7 +166,7 @@ namespace GoogleDiskApp.Files_Stuff
             return fileList;
         }
 
-        private static List<Sheaf> GetListOfFiles()
+        public static List<Sheaf> GetListOfFiles()
         {
             return (from path in _files let fileInfo = new FileInfo(path) select new Sheaf(path, fileInfo.Name, fileInfo.LastWriteTime)).ToList();
         }
