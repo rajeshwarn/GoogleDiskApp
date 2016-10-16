@@ -39,7 +39,8 @@
             this.checkedListBox = new System.Windows.Forms.CheckedListBox();
             this.progressBar = new System.Windows.Forms.ProgressBar();
             this.progressBarAll = new System.Windows.Forms.ProgressBar();
-            this.button1 = new System.Windows.Forms.Button();
+            this.checkAllButton = new System.Windows.Forms.Button();
+            this.updateAllCheckBox = new System.Windows.Forms.CheckBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -96,7 +97,7 @@
             // autorToolStripMenuItem
             // 
             this.autorToolStripMenuItem.Name = "autorToolStripMenuItem";
-            this.autorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.autorToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
             this.autorToolStripMenuItem.Text = "Autor";
             this.autorToolStripMenuItem.Click += new System.EventHandler(this.autorToolStripMenuItem_Click);
             // 
@@ -133,22 +134,33 @@
             this.progressBarAll.Size = new System.Drawing.Size(511, 23);
             this.progressBarAll.TabIndex = 4;
             // 
-            // button1
+            // checkAllButton
             // 
-            this.button1.Location = new System.Drawing.Point(643, 76);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.checkAllButton.Location = new System.Drawing.Point(610, 27);
+            this.checkAllButton.Name = "checkAllButton";
+            this.checkAllButton.Size = new System.Drawing.Size(119, 37);
+            this.checkAllButton.TabIndex = 5;
+            this.checkAllButton.Text = "Zaznacz wszystko";
+            this.checkAllButton.UseVisualStyleBackColor = true;
+            this.checkAllButton.Click += new System.EventHandler(this.checkAllButton_Click);
+            // 
+            // updateAllCheckBox
+            // 
+            this.updateAllCheckBox.AutoSize = true;
+            this.updateAllCheckBox.Location = new System.Drawing.Point(610, 71);
+            this.updateAllCheckBox.Name = "updateAllCheckBox";
+            this.updateAllCheckBox.Size = new System.Drawing.Size(132, 17);
+            this.updateAllCheckBox.TabIndex = 6;
+            this.updateAllCheckBox.Text = "Zaktualizuj o wszystko";
+            this.updateAllCheckBox.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(741, 440);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.updateAllCheckBox);
+            this.Controls.Add(this.checkAllButton);
             this.Controls.Add(this.progressBarAll);
             this.Controls.Add(this.progressBar);
             this.Controls.Add(this.checkedListBox);
@@ -178,7 +190,8 @@
         private System.Windows.Forms.ProgressBar progressBar;
         private System.Windows.Forms.ProgressBar progressBarAll;
         private System.Windows.Forms.ToolStripMenuItem aktualizujPlikŹródłowyToolStripMenuItem;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button checkAllButton;
+        private System.Windows.Forms.CheckBox updateAllCheckBox;
     }
 }
 

@@ -19,7 +19,7 @@ namespace GoogleDiskApp.Files_Stuff
 {
     class DataManipulations
     {
-        private static readonly string[] _files = Directory.GetFiles(@"C:\\test", "*.*", SearchOption.AllDirectories);
+        private static readonly string[] _files = Directory.GetFiles(@"C:\\studia\V", "*.*", SearchOption.AllDirectories);
         private static readonly string _path = Environment.CurrentDirectory + "\\list.xml";
         private static readonly string _fileName = "list.xml";
         
@@ -40,7 +40,7 @@ namespace GoogleDiskApp.Files_Stuff
                         if (dateCompare == 1)
                         {
                             sheaf.FolderId = file.FolderId;
-                            filesToUploadList.Add(sheaf);
+                            filesToUploadList.Add(file);
                         }
                         removeList.Add(file);
                         break;
@@ -168,7 +168,7 @@ namespace GoogleDiskApp.Files_Stuff
 
         public static List<Sheaf> GetListOfFiles()
         {
-            return (from path in _files let fileInfo = new FileInfo(path) select new Sheaf(path, fileInfo.Name, fileInfo.LastWriteTime)).ToList();
+            return (from path in _files let fileInfo = new FileInfo(path) select new Sheaf(path, fileInfo.Name, fileInfo.LastWriteTime, fileInfo.Length)).ToList();
         }
 
     }

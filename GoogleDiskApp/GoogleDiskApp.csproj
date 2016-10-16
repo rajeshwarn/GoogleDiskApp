@@ -86,6 +86,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Files Stuff\ByteSize.cs" />
     <Compile Include="Files Stuff\DataManipulations.cs" />
     <Compile Include="Files Stuff\GoogleDriveUpload.cs" />
     <Compile Include="Files Stuff\IProggressReporter.cs" />

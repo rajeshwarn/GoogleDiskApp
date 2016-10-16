@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
+using Org.BouncyCastle.Crypto.Generators;
 
 namespace GoogleDiskApp.Files_Stuff
 {
@@ -10,7 +13,14 @@ namespace GoogleDiskApp.Files_Stuff
     {
         private string _path, _name, _folderId;
         private DateTime _lastModyfication;
-
+        private long _size; 
+        public Sheaf(string path, string name, DateTime lastModyfication, long size)
+        {
+            _path = path;
+            _name = name;
+            _lastModyfication = lastModyfication;
+            _size = size;
+        }
         public Sheaf(string path, string name, DateTime lastModyfication)
         {
             _path = path;
@@ -58,12 +68,18 @@ namespace GoogleDiskApp.Files_Stuff
         {
             return new List<string>() {_folderId};
         }
+        [XmlIgnore]
+        public long Size
+        {
+            get { return _size; }
+            set { _size = value; }
+        }
 
         public string FullDataSet
         {
             get
             {
-                return "Nazwa pliku: " + Name + " | Ostatnia modyfikacja: " + LastModyfication + " | Ścieżka: " + Path; 
+                return "Nazwa: " + Name + "| Waga: "+ ByteSize.ToPrettySize(Size); 
             }
         }
     }

@@ -113,15 +113,23 @@ namespace GoogleDiskApp
         private async void uploadButton_Click(object sender, EventArgs e)
         {
             uploadButton.Enabled = false;
-            var uploadList = new List<Sheaf>();
-            foreach (Sheaf file in checkedListBox.CheckedItems)
-            {
-                uploadList.Add(file);                
-            }
+
+            var uploadList = checkedListBox.CheckedItems.Cast<Sheaf>().ToList();
 
             await _googleDriveUpload.UploadFile(uploadList);
 
-            UpdateFile("Czy chcesz zaktualizować plik źródłowy?", uploadList);
+            string text = "Czy chcesz zaktualizować plik źródłowy?";
+            if (updateAllCheckBox.Checked)
+            {
+                UpdateFile(text, _fileList);
+            }
+            else
+            {
+                UpdateFile(text, uploadList);
+            }
+
+            progressBarAll.Value = 0;
+            progressBar.Value = 0;
         }
 
         private void UpdateFile(string textInMBox, List<Sheaf> fileList)
@@ -147,17 +155,35 @@ namespace GoogleDiskApp
                 MessageBoxIcon.Information);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void checkAllButton_Click(object sender, EventArgs e)
         {
-            //if (_fileList == null || _fileList.Count == 0)
-            //{
-            //    _fileList = DataManipulations.GetListOfFiles();
-            ////}
-            //var rnd = DataManipulations.GetListOfFiles();
+            IsListChecked = !_isListChecked;
+        }
 
-            //DataManipulations.UpdateXmlLog(rnd);
-            //var aa = DataManipulations.ReadFromXml();
-            //var bb = DataManipulations.CheckForModyfications(aa);
+        private bool _isListChecked;
+        public bool IsListChecked
+        {
+            get { return _isListChecked; }
+            set
+            {
+                if (!_isListChecked)
+                {
+                    for (int i = 0, count = checkedListBox.Items.Count; i < count; i++)
+                    {
+                        checkedListBox.SetItemChecked(i, true);
+                    }
+                    checkAllButton.Text = "Odznacz wszystko";
+                }
+                else
+                {
+                    for (int i = 0, count = checkedListBox.Items.Count; i < count; i++)
+                    {
+                        checkedListBox.SetItemChecked(i, false);
+                    }
+                    checkAllButton.Text = "Zaznacz wszystko";
+                }
+                _isListChecked = value;
+            }
         }
     }
 }

@@ -1,39 +1,1898 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfSheaf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Sheaf>
-    <Path>C:\\test\Nowy dokument tekstowy.txt</Path>
-    <FolderId>0B7QqR9_eO7xFb2diSXpwZWE1Rzg</FolderId>
-    <Name>Nowy dokument tekstowy</Name>
-    <LastModyfication>2016-10-04T21:22:40.6566176+02:00</LastModyfication>
+    <Path>C:\\studia\V\Plan studiów.jpg</Path>
+    <FolderId>0B7QqR9_eO7xFWEpCejl1U1RBYlk</FolderId>
+    <Name>Plan studiów</Name>
+    <LastModyfication>2016-09-29T16:34:46.3902351+02:00</LastModyfication>
   </Sheaf>
   <Sheaf>
-    <Path>C:\\test\121.cpt</Path>
-    <FolderId>0B7QqR9_eO7xFb2diSXpwZWE1Rzg</FolderId>
-    <Name>121</Name>
-    <LastModyfication>2016-10-04T21:34:53.5076219+02:00</LastModyfication>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\kolo.txt</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>kolo</Name>
+    <LastModyfication>2016-01-18T10:32:36+01:00</LastModyfication>
   </Sheaf>
   <Sheaf>
-    <Path>C:\\test\212.pub</Path>
-    <FolderId>0B7QqR9_eO7xFb2diSXpwZWE1Rzg</FolderId>
-    <Name>212</Name>
-    <LastModyfication>2016-10-04T21:34:29.047115+02:00</LastModyfication>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\L5_PiotrSzmolke_Inf_III-stac.doc</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>L5_PiotrSzmolke_Inf_III-stac</Name>
+    <LastModyfication>2016-10-03T03:34:14+02:00</LastModyfication>
   </Sheaf>
   <Sheaf>
-    <Path>C:\\test\321.LDM</Path>
-    <FolderId>0B7QqR9_eO7xFb2diSXpwZWE1Rzg</FolderId>
-    <Name>321</Name>
-    <LastModyfication>2016-10-04T21:35:06.0410129+02:00</LastModyfication>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\lista1.sql</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>lista1</Name>
+    <LastModyfication>2015-12-07T22:47:22+01:00</LastModyfication>
   </Sheaf>
   <Sheaf>
-    <Path>C:\\test\krysia.txt</Path>
-    <FolderId>0B7QqR9_eO7xFb2diSXpwZWE1Rzg</FolderId>
-    <Name>krysia</Name>
-    <LastModyfication>2016-10-04T21:39:03.8803196+02:00</LastModyfication>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\lista2.sql</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>lista2</Name>
+    <LastModyfication>2015-12-07T22:35:24+01:00</LastModyfication>
   </Sheaf>
   <Sheaf>
-    <Path>C:\\test\basia.txt</Path>
-    <FolderId>0B7QqR9_eO7xFb2diSXpwZWE1Rzg</FolderId>
-    <Name>basia</Name>
-    <LastModyfication>2016-10-04T21:39:09.5470552+02:00</LastModyfication>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\lista3.sql</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>lista3</Name>
+    <LastModyfication>2015-12-07T23:00:32+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\lista4.sql</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>lista4</Name>
+    <LastModyfication>2015-12-07T22:55:18+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\lista5.sql</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>lista5</Name>
+    <LastModyfication>2015-12-08T13:18:16+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\lista6.sql</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>lista6</Name>
+    <LastModyfication>2016-01-19T11:38:34+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\lista7.sql</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>lista7</Name>
+    <LastModyfication>2016-01-19T11:37:26+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\pdf\cw1_tworzenie_tabel.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFbEhsSXVHSU9EbTA</FolderId>
+    <Name>cw1_tworzenie_tabel</Name>
+    <LastModyfication>2016-01-17T08:44:24+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\pdf\cw2_zmienne.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFbEhsSXVHSU9EbTA</FolderId>
+    <Name>cw2_zmienne</Name>
+    <LastModyfication>2016-01-17T08:44:42+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\pdf\cw3_funkcje.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFbEhsSXVHSU9EbTA</FolderId>
+    <Name>cw3_funkcje</Name>
+    <LastModyfication>2016-01-17T08:46:32+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\pdf\cw4_laczenia.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFbEhsSXVHSU9EbTA</FolderId>
+    <Name>cw4_laczenia</Name>
+    <LastModyfication>2016-01-17T08:46:46+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\pdf\cw5_podzapytania.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFbEhsSXVHSU9EbTA</FolderId>
+    <Name>cw5_podzapytania</Name>
+    <LastModyfication>2016-01-17T08:46:58+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\pdf\cw6_modyfikacja.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFbEhsSXVHSU9EbTA</FolderId>
+    <Name>cw6_modyfikacja</Name>
+    <LastModyfication>2016-01-17T08:47:10+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\pdf\cw7_inne_obiekty.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFbEhsSXVHSU9EbTA</FolderId>
+    <Name>cw7_inne_obiekty</Name>
+    <LastModyfication>2016-01-17T08:47:26+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\pdf\wy1_podstawy.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFbEhsSXVHSU9EbTA</FolderId>
+    <Name>wy1_podstawy</Name>
+    <LastModyfication>2016-01-18T10:31:36+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\pdf\wy2_tabele.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFbEhsSXVHSU9EbTA</FolderId>
+    <Name>wy2_tabele</Name>
+    <LastModyfication>2016-01-18T10:31:40+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\pdf\wy3_ograniczenia.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFbEhsSXVHSU9EbTA</FolderId>
+    <Name>wy3_ograniczenia</Name>
+    <LastModyfication>2016-01-17T08:45:38+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\pdf\wy4_zapytania.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFbEhsSXVHSU9EbTA</FolderId>
+    <Name>wy4_zapytania</Name>
+    <LastModyfication>2016-01-17T08:45:52+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\pdf\wy5_funkcje.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFbEhsSXVHSU9EbTA</FolderId>
+    <Name>wy5_funkcje</Name>
+    <LastModyfication>2016-01-17T08:47:34+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\pdf\wy6_laczenia.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFbEhsSXVHSU9EbTA</FolderId>
+    <Name>wy6_laczenia</Name>
+    <LastModyfication>2016-01-17T08:47:46+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\pdf\wy7_podzapytania.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFbEhsSXVHSU9EbTA</FolderId>
+    <Name>wy7_podzapytania</Name>
+    <LastModyfication>2016-01-17T08:47:56+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\pdf\wy8_modyfikacja.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFbEhsSXVHSU9EbTA</FolderId>
+    <Name>wy8_modyfikacja</Name>
+    <LastModyfication>2016-01-17T08:48:18+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\pdf\wy9_inne_obiekty.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFbEhsSXVHSU9EbTA</FolderId>
+    <Name>wy9_inne_obiekty</Name>
+    <LastModyfication>2016-01-17T08:48:30+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Bazy danych I\materiały\w1l2p2_Kaczmarczyk_Adam.sql</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>w1l2p2_Kaczmarczyk_Adam</Name>
+    <LastModyfication>2016-01-19T13:18:44+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\audyt\Audyt Grzegorz Stysiak INF 2016 L5 Inżynieria Oprogramowania.docx</Path>
+    <FolderId>0B7QqR9_eO7xFbEs1N0Z4VUF3aVE</FolderId>
+    <Name>Audyt Grzegorz Stysiak INF 2016 L5 Inżynieria Oprogramowania</Name>
+    <LastModyfication>2016-10-09T20:33:45.5615671+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\audyt\audyt.rar</Path>
+    <FolderId>0B7QqR9_eO7xFbEs1N0Z4VUF3aVE</FolderId>
+    <Name>audyt</Name>
+    <LastModyfication>2016-10-10T11:26:08+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\audyt\Grz_L7_Projekt_1\Grz_L7_Projekt_1.pjb</Path>
+    <FolderId>0B7QqR9_eO7xFWEtpUUNjc20zQmc</FolderId>
+    <Name>Grz_L7_Projekt_1</Name>
+    <LastModyfication>2016-10-10T09:28:08+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\audyt\Grz_L7_Projekt_1\Grz_L7_Projekt_1.prj</Path>
+    <FolderId>0B7QqR9_eO7xFWEtpUUNjc20zQmc</FolderId>
+    <Name>Grz_L7_Projekt_1</Name>
+    <LastModyfication>2016-10-10T10:33:50+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\audyt\L5_GrzegorzStysiak_INF_III_stac.docx</Path>
+    <FolderId>0B7QqR9_eO7xFbEs1N0Z4VUF3aVE</FolderId>
+    <Name>L5_GrzegorzStysiak_INF_III_stac</Name>
+    <LastModyfication>2016-10-10T11:24:56+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\audyt\L5_GrzegorzStysiak_INF_III_stac.txt</Path>
+    <FolderId>0B7QqR9_eO7xFbEs1N0Z4VUF3aVE</FolderId>
+    <Name>L5_GrzegorzStysiak_INF_III_stac</Name>
+    <LastModyfication>2016-10-03T03:33:34+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\audyt\projekt IO 2.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFbEs1N0Z4VUF3aVE</FolderId>
+    <Name>projekt IO 2</Name>
+    <LastModyfication>2016-10-08T12:35:50+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\audyt\Sty_L5_projekt1\ERD.cdm</Path>
+    <FolderId>0B7QqR9_eO7xFZDAzU3M0XzB5eEU</FolderId>
+    <Name>ERD</Name>
+    <LastModyfication>2016-10-10T12:41:04+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\audyt\Sty_L5_projekt1\Sty_L5_projekt1.pjb</Path>
+    <FolderId>0B7QqR9_eO7xFZDAzU3M0XzB5eEU</FolderId>
+    <Name>Sty_L5_projekt1</Name>
+    <LastModyfication>2016-10-10T11:14:30+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\audyt\Sty_L5_projekt1\Sty_L5_projekt1.prj</Path>
+    <FolderId>0B7QqR9_eO7xFZDAzU3M0XzB5eEU</FolderId>
+    <Name>Sty_L5_projekt1</Name>
+    <LastModyfication>2016-10-10T12:41:06+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\audyt\Sty_L5_projekt1\Workspace.sws</Path>
+    <FolderId>0B7QqR9_eO7xFZDAzU3M0XzB5eEU</FolderId>
+    <Name>Workspace</Name>
+    <LastModyfication>2016-10-10T12:41:10+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt_v2\~$ojekt_io_Adam_Kaczmarczyk.doc</Path>
+    <FolderId>0B7QqR9_eO7xFaFUwQ2gzVDFJaTA</FolderId>
+    <Name>~$ojekt_io_Adam_Kaczmarczyk</Name>
+    <LastModyfication>2016-01-12T13:49:28+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt_v2\~$upaP7_Wais_TerminXIII.docx</Path>
+    <FolderId>0B7QqR9_eO7xFaFUwQ2gzVDFJaTA</FolderId>
+    <Name>~$upaP7_Wais_TerminXIII</Name>
+    <LastModyfication>2015-11-10T18:37:20+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt_v2\~WRL0001.tmp</Path>
+    <FolderId>0B7QqR9_eO7xFaFUwQ2gzVDFJaTA</FolderId>
+    <Name>~WRL0001</Name>
+    <LastModyfication>2016-01-10T13:05:28+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt_v2\CMD_Kaczmarczyk.cdb</Path>
+    <FolderId>0B7QqR9_eO7xFaFUwQ2gzVDFJaTA</FolderId>
+    <Name>CMD_Kaczmarczyk</Name>
+    <LastModyfication>2016-01-09T23:52:48+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt_v2\CMD_Kaczmarczyk.cdm</Path>
+    <FolderId>0B7QqR9_eO7xFaFUwQ2gzVDFJaTA</FolderId>
+    <Name>CMD_Kaczmarczyk</Name>
+    <LastModyfication>2016-01-10T12:34:30+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt_v2\GrupaP7_Wais_TerminXIII.docx</Path>
+    <FolderId>0B7QqR9_eO7xFaFUwQ2gzVDFJaTA</FolderId>
+    <Name>GrupaP7_Wais_TerminXIII</Name>
+    <LastModyfication>2015-11-10T18:28:26+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt_v2\OOM_Kaczmarczyk.oob</Path>
+    <FolderId>0B7QqR9_eO7xFaFUwQ2gzVDFJaTA</FolderId>
+    <Name>OOM_Kaczmarczyk</Name>
+    <LastModyfication>2016-01-16T21:57:16+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt_v2\OOM_Kaczmarczyk.oom</Path>
+    <FolderId>0B7QqR9_eO7xFaFUwQ2gzVDFJaTA</FolderId>
+    <Name>OOM_Kaczmarczyk</Name>
+    <LastModyfication>2016-01-16T22:08:10+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt_v2\OOM_Kaczmarczyk.sws</Path>
+    <FolderId>0B7QqR9_eO7xFaFUwQ2gzVDFJaTA</FolderId>
+    <Name>OOM_Kaczmarczyk</Name>
+    <LastModyfication>2016-01-16T22:19:00+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt_v2\PDM_Kaczmarczyk.pdb</Path>
+    <FolderId>0B7QqR9_eO7xFaFUwQ2gzVDFJaTA</FolderId>
+    <Name>PDM_Kaczmarczyk</Name>
+    <LastModyfication>2016-01-10T12:32:22+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt_v2\PDM_Kaczmarczyk.pdm</Path>
+    <FolderId>0B7QqR9_eO7xFaFUwQ2gzVDFJaTA</FolderId>
+    <Name>PDM_Kaczmarczyk</Name>
+    <LastModyfication>2016-01-10T12:34:26+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt_v2\projekt_io_Adam_Kaczmarczyk.doc</Path>
+    <FolderId>0B7QqR9_eO7xFaFUwQ2gzVDFJaTA</FolderId>
+    <Name>projekt_io_Adam_Kaczmarczyk</Name>
+    <LastModyfication>2016-01-16T22:22:40+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt_v2\spis_treści.txt</Path>
+    <FolderId>0B7QqR9_eO7xFaFUwQ2gzVDFJaTA</FolderId>
+    <Name>spis_treści</Name>
+    <LastModyfication>2015-12-09T22:33:28+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt1\model_fizyczny.pdb</Path>
+    <FolderId>0B7QqR9_eO7xFdzRTTlFHZFBVVDQ</FolderId>
+    <Name>model_fizyczny</Name>
+    <LastModyfication>2015-10-27T12:19:36+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt1\model_fizyczny.pdm</Path>
+    <FolderId>0B7QqR9_eO7xFdzRTTlFHZFBVVDQ</FolderId>
+    <Name>model_fizyczny</Name>
+    <LastModyfication>2015-10-27T12:20:36+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt1\model_konceptualny.cdb</Path>
+    <FolderId>0B7QqR9_eO7xFdzRTTlFHZFBVVDQ</FolderId>
+    <Name>model_konceptualny</Name>
+    <LastModyfication>2015-10-27T11:57:42+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt1\model_konceptualny.cdm</Path>
+    <FolderId>0B7QqR9_eO7xFdzRTTlFHZFBVVDQ</FolderId>
+    <Name>model_konceptualny</Name>
+    <LastModyfication>2015-10-27T12:04:56+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt1\SprawozdanieI_Kaczmarczyk_Adam_L2P2.doc</Path>
+    <FolderId>0B7QqR9_eO7xFdzRTTlFHZFBVVDQ</FolderId>
+    <Name>SprawozdanieI_Kaczmarczyk_Adam_L2P2</Name>
+    <LastModyfication>2015-10-19T21:15:02+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt1\ss.txt</Path>
+    <FolderId>0B7QqR9_eO7xFdzRTTlFHZFBVVDQ</FolderId>
+    <Name>ss</Name>
+    <LastModyfication>2015-10-27T11:52:42+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt1\system_CarRent.cdb</Path>
+    <FolderId>0B7QqR9_eO7xFdzRTTlFHZFBVVDQ</FolderId>
+    <Name>system_CarRent</Name>
+    <LastModyfication>2015-10-20T12:00:22+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Inżynieria Oprogramowania II\materiały + projekt\projekt1\system_CarRent.cdm</Path>
+    <FolderId>0B7QqR9_eO7xFdzRTTlFHZFBVVDQ</FolderId>
+    <Name>system_CarRent</Name>
+    <LastModyfication>2015-10-20T12:04:32+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\kodowanie.exe</Path>
+    <FolderId>0B7QqR9_eO7xFOTlHTERPNjQ3SjA</FolderId>
+    <Name>kodowanie</Name>
+    <LastModyfication>2016-10-08T09:58:49.6047462+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\OD_zad1.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFOTlHTERPNjQ3SjA</FolderId>
+    <Name>OD_zad1</Name>
+    <LastModyfication>2015-10-18T12:41:26+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\OD_zad2.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFOTlHTERPNjQ3SjA</FolderId>
+    <Name>OD_zad2</Name>
+    <LastModyfication>2015-11-03T15:01:36+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\OD_zad3.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFOTlHTERPNjQ3SjA</FolderId>
+    <Name>OD_zad3</Name>
+    <LastModyfication>2015-11-26T19:48:26+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\OD_zad4.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFOTlHTERPNjQ3SjA</FolderId>
+    <Name>OD_zad4</Name>
+    <LastModyfication>2015-12-26T09:10:14+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\OD_zad5.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFOTlHTERPNjQ3SjA</FolderId>
+    <Name>OD_zad5</Name>
+    <LastModyfication>2015-12-26T09:10:02+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\prezentacja_uwierzytelnianie.pptx</Path>
+    <FolderId>0B7QqR9_eO7xFOTlHTERPNjQ3SjA</FolderId>
+    <Name>prezentacja_uwierzytelnianie</Name>
+    <LastModyfication>2015-11-23T11:37:24+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\pytania_kontrolne.doc</Path>
+    <FolderId>0B7QqR9_eO7xFOTlHTERPNjQ3SjA</FolderId>
+    <Name>pytania_kontrolne</Name>
+    <LastModyfication>2016-01-20T21:13:42+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\Snort_2_9_2_2_Installer.zip</Path>
+    <FolderId>0B7QqR9_eO7xFOTlHTERPNjQ3SjA</FolderId>
+    <Name>Snort_2_9_2_2_Installer</Name>
+    <LastModyfication>2015-12-26T09:09:36+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\SNORT_PLIKI.zip</Path>
+    <FolderId>0B7QqR9_eO7xFOTlHTERPNjQ3SjA</FolderId>
+    <Name>SNORT_PLIKI</Name>
+    <LastModyfication>2015-12-26T09:09:04+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\SNORT_PLIKI\baza.sql</Path>
+    <FolderId>0B7QqR9_eO7xFb2cwUFJYYlF6ZzA</FolderId>
+    <Name>baza</Name>
+    <LastModyfication>2007-11-22T16:29:00+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\SNORT_PLIKI\exploit.exe</Path>
+    <FolderId>0B7QqR9_eO7xFb2cwUFJYYlF6ZzA</FolderId>
+    <Name>exploit</Name>
+    <LastModyfication>2007-12-12T21:25:00+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\SNORT_PLIKI\exploit.jar</Path>
+    <FolderId>0B7QqR9_eO7xFb2cwUFJYYlF6ZzA</FolderId>
+    <Name>exploit</Name>
+    <LastModyfication>2007-12-12T21:24:00+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\SNORT_PLIKI\sqlinjection.php</Path>
+    <FolderId>0B7QqR9_eO7xFb2cwUFJYYlF6ZzA</FolderId>
+    <Name>sqlinjection</Name>
+    <LastModyfication>2007-12-12T20:47:00+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\SNORT_PLIKI\testpassword.php</Path>
+    <FolderId>0B7QqR9_eO7xFb2cwUFJYYlF6ZzA</FolderId>
+    <Name>testpassword</Name>
+    <LastModyfication>2007-12-12T20:32:00+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\SNORT_zad5.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFOTlHTERPNjQ3SjA</FolderId>
+    <Name>SNORT_zad5</Name>
+    <LastModyfication>2015-12-26T09:09:28+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\VPN_zad4.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFOTlHTERPNjQ3SjA</FolderId>
+    <Name>VPN_zad4</Name>
+    <LastModyfication>2015-12-26T09:08:50+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\zadanie_1_Adam_Kaczmarczyk.doc</Path>
+    <FolderId>0B7QqR9_eO7xFOTlHTERPNjQ3SjA</FolderId>
+    <Name>zadanie_1_Adam_Kaczmarczyk</Name>
+    <LastModyfication>2015-11-17T17:21:02+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\zadanie_2_Adam_Kaczmarczyk.docx</Path>
+    <FolderId>0B7QqR9_eO7xFOTlHTERPNjQ3SjA</FolderId>
+    <Name>zadanie_2_Adam_Kaczmarczyk</Name>
+    <LastModyfication>2015-12-03T13:01:16+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\zadanie_3_Adam_Kaczmarczyk.docx</Path>
+    <FolderId>0B7QqR9_eO7xFOTlHTERPNjQ3SjA</FolderId>
+    <Name>zadanie_3_Adam_Kaczmarczyk</Name>
+    <LastModyfication>2015-12-15T22:38:02+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\zadanie_4_Adam_Kaczmarczyk.docx</Path>
+    <FolderId>0B7QqR9_eO7xFOTlHTERPNjQ3SjA</FolderId>
+    <Name>zadanie_4_Adam_Kaczmarczyk</Name>
+    <LastModyfication>2016-01-20T11:23:50+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\zadanie_4_log.docx</Path>
+    <FolderId>0B7QqR9_eO7xFOTlHTERPNjQ3SjA</FolderId>
+    <Name>zadanie_4_log</Name>
+    <LastModyfication>2016-01-13T01:58:58+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Ochrona danych w systemach i sieciach komputerowych\zadania poglądowe\zadanie_5_Adam_Kaczmarczyk.docx</Path>
+    <FolderId>0B7QqR9_eO7xFOTlHTERPNjQ3SjA</FolderId>
+    <Name>zadanie_5_Adam_Kaczmarczyk</Name>
+    <LastModyfication>2016-01-21T23:30:40+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\1_zadanie1.txt</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>1_zadanie1</Name>
+    <LastModyfication>2016-01-28T16:18:08+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\10.1.3.3 Packet Tracer - Configuring DHCPv4 Using Cisco IOS Instructions.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>10</Name>
+    <LastModyfication>2015-12-06T12:48:48+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\10.1.3.3 Packet Tracer - Configuring DHCPv4 Using Cisco IOS.pka</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>10</Name>
+    <LastModyfication>2015-12-06T12:48:52+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\11.2.2.5 Packet Tracer - Configuring Dynamic NAT Instructions.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>11</Name>
+    <LastModyfication>2015-12-17T15:51:16+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\11.2.2.5 Packet Tracer - Configuring Dynamic NAT.pka</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>11</Name>
+    <LastModyfication>2015-12-17T15:51:20+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\11.2.3.6 Packet Tracer - Implementing Static and Dynamic NAT Instructions.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>11</Name>
+    <LastModyfication>2015-12-17T15:51:22+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\11.2.3.6 Packet Tracer - Implementing Static and Dynamic NAT.pka</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>11</Name>
+    <LastModyfication>2015-12-17T15:51:26+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\3.4.1.2_vlan.txt</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>3</Name>
+    <LastModyfication>2016-01-20T01:01:56+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\5.2.2.4_vlan.txt</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>5</Name>
+    <LastModyfication>2016-01-20T00:44:34+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\6.4.1.6_route_summarization.txt</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>6</Name>
+    <LastModyfication>2016-01-20T00:35:26+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\7.1.3.6_dynamic_routing.txt</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>7</Name>
+    <LastModyfication>2016-01-19T23:54:00+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\7.2.2.4_dynamic_routing.txt</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>7</Name>
+    <LastModyfication>2016-01-20T00:00:52+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\7.3.1.8 Packet Tracer - Configuring RIPv2.pka</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>7</Name>
+    <LastModyfication>2015-11-04T11:54:24+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\7.3.1.8_ripv2.txt</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>7</Name>
+    <LastModyfication>2016-01-20T00:09:52+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\8.2.2.7_ospfv2.txt</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>8</Name>
+    <LastModyfication>2016-01-19T23:41:12+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\8.3.3.5_ospfv3.txt</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>8</Name>
+    <LastModyfication>2016-01-19T23:48:00+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\9.2.1.10 Packet Tracer Configuring Standard ACLs.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>9</Name>
+    <LastModyfication>2015-11-27T17:04:02+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\9.2.1.10 Packet Tracer Configuring Standard ACLs.pka</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>9</Name>
+    <LastModyfication>2015-11-27T17:09:42+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\9.2.1.11 Packet Tracer - Configuring Named Standard ACLs Instructions.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>9</Name>
+    <LastModyfication>2015-11-27T17:07:32+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\9.2.1.11 Packet Tracer - Configuring Named Standard ACLs.pka</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>9</Name>
+    <LastModyfication>2015-11-27T17:10:22+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\9.3.2.11 Configuring Extended ACLs Scenario 2 Instructions.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>9</Name>
+    <LastModyfication>2015-11-27T17:07:30+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\9.3.2.11 Configuring Extended ACLs Scenario 2.pka</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>9</Name>
+    <LastModyfication>2015-11-27T17:10:46+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\dokumentacja.docx</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>dokumentacja</Name>
+    <LastModyfication>2015-12-17T17:28:56+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\dokumentacja_zadania_5,6.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>dokumentacja_zadania_5,6</Name>
+    <LastModyfication>2015-12-03T14:17:38+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\dokumentacja_zadanie_1.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>dokumentacja_zadanie_1</Name>
+    <LastModyfication>2015-10-28T16:59:20+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\dokumentacja_zadanie_2.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>dokumentacja_zadanie_2</Name>
+    <LastModyfication>2015-10-28T16:58:30+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\dokumentacja_zadanie_4.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>dokumentacja_zadanie_4</Name>
+    <LastModyfication>2015-11-26T13:26:26+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\dokumentacja_zadanie_7.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>dokumentacja_zadanie_7</Name>
+    <LastModyfication>2015-12-10T08:51:40+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\dokumentacja_zadanie_8.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>dokumentacja_zadanie_8</Name>
+    <LastModyfication>2015-12-17T17:29:44+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\Kaczmarczyk_Adam_1.zip</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>Kaczmarczyk_Adam_1</Name>
+    <LastModyfication>2015-11-04T19:08:42+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\Kaczmarczyk_Adam_2.zip</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>Kaczmarczyk_Adam_2</Name>
+    <LastModyfication>2015-10-28T16:59:52+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\Kaczmarczyk_Adam_3.zip</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>Kaczmarczyk_Adam_3</Name>
+    <LastModyfication>2015-11-04T19:07:52+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\Kaczmarczyk_Adam_4.zip</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>Kaczmarczyk_Adam_4</Name>
+    <LastModyfication>2015-11-26T13:27:20+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\Kaczmarczyk_Adam_5,6.zip</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>Kaczmarczyk_Adam_5,6</Name>
+    <LastModyfication>2015-12-03T14:23:16+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\Kaczmarczyk_Adam_7.zip</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>Kaczmarczyk_Adam_7</Name>
+    <LastModyfication>2015-12-10T08:52:38+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\Kaczmarczyk_Adam_8.zip</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>Kaczmarczyk_Adam_8</Name>
+    <LastModyfication>2015-12-17T17:30:16+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\KAT.png</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>KAT</Name>
+    <LastModyfication>2015-11-26T13:15:32+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\OP.png</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>OP</Name>
+    <LastModyfication>2015-11-26T13:18:34+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\WA.png</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>WA</Name>
+    <LastModyfication>2015-11-26T13:16:02+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\WAN.png</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>WAN</Name>
+    <LastModyfication>2015-11-26T13:16:24+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\ZADANIE 1.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>ZADANIE 1</Name>
+    <LastModyfication>2015-10-20T20:25:24+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\ZADANIE 2.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>ZADANIE 2</Name>
+    <LastModyfication>2015-10-21T14:57:24+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\ZADANIE 3.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>ZADANIE 3</Name>
+    <LastModyfication>2015-10-28T17:01:50+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\ZADANIE 4.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>ZADANIE 4</Name>
+    <LastModyfication>2015-11-25T11:57:46+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\zadanie1.pkt</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>zadanie1</Name>
+    <LastModyfication>2015-10-21T14:51:58+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\zadanie2.pkt</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>zadanie2</Name>
+    <LastModyfication>2015-10-28T15:56:24+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\zadanie3.pka</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>zadanie3</Name>
+    <LastModyfication>2015-11-04T11:54:42+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\zadanie4.pkt</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>zadanie4</Name>
+    <LastModyfication>2015-11-26T13:18:54+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\zadanie5,6_9.2.1.10.pka</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>zadanie5,6_9</Name>
+    <LastModyfication>2015-11-30T07:36:40+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\zadanie5,6_9.2.1.11.pka</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>zadanie5,6_9</Name>
+    <LastModyfication>2015-11-30T07:44:40+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\zadanie5,6_9.3.2.11.pka</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>zadanie5,6_9</Name>
+    <LastModyfication>2015-11-30T09:40:04+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\zadanie7_10.1.3.3.pka</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>zadanie7_10</Name>
+    <LastModyfication>2015-12-10T08:32:06+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\zadanie8_11.2.2.5.pka</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>zadanie8_11</Name>
+    <LastModyfication>2015-12-17T16:12:58+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\laborki poglądowe\zadanie8_11.2.3.6.pka</Path>
+    <FolderId>0B7QqR9_eO7xFN2ktaDE0eTVZZjg</FolderId>
+    <Name>zadanie8_11</Name>
+    <LastModyfication>2015-12-17T17:25:08+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Administrowanie sieciowymi systemami operacyjnymi\1\pomoc!.txt</Path>
+    <FolderId>0B7QqR9_eO7xFejNQcTJ1NFVqSkk</FolderId>
+    <Name>pomoc!</Name>
+    <LastModyfication>2016-10-08T21:38:35.1050313+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Administrowanie sieciowymi systemami operacyjnymi\Administracja sieciowymi systemami operacyjnymi - zadania 2016.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFY0UzTEpLUjlhNE0</FolderId>
+    <Name>Administracja sieciowymi systemami operacyjnymi - zadania 2016</Name>
+    <LastModyfication>2016-10-08T14:24:54.9087973+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Administrowanie sieciowymi systemami operacyjnymi\centos\Red_Hat_Enterprise_Linux-6-Installation_Guide-en-US.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFZktXaktRRXZfVGM</FolderId>
+    <Name>Red_Hat_Enterprise_Linux-6-Installation_Guide-en-US</Name>
+    <LastModyfication>2015-09-27T15:25:30+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Administrowanie sieciowymi systemami operacyjnymi\centos\Red_Hat_Enterprise_Linux-6-Security_Guide-en-US.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFZktXaktRRXZfVGM</FolderId>
+    <Name>Red_Hat_Enterprise_Linux-6-Security_Guide-en-US</Name>
+    <LastModyfication>2015-09-27T15:19:54+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Grafika komputerowa II\materiały + projekt poglądowy\bellano1.jpg</Path>
+    <FolderId>0B7QqR9_eO7xFOU1rQ08xSWhnQ2s</FolderId>
+    <Name>bellano1</Name>
+    <LastModyfication>2016-01-20T13:48:52+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Grafika komputerowa II\materiały + projekt poglądowy\bellano2.jpg</Path>
+    <FolderId>0B7QqR9_eO7xFOU1rQ08xSWhnQ2s</FolderId>
+    <Name>bellano2</Name>
+    <LastModyfication>2016-01-20T13:50:32+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Grafika komputerowa II\materiały + projekt poglądowy\dom_bellano_Adam_Kaczmarczyk.blend</Path>
+    <FolderId>0B7QqR9_eO7xFOU1rQ08xSWhnQ2s</FolderId>
+    <Name>dom_bellano_Adam_Kaczmarczyk</Name>
+    <LastModyfication>2016-01-20T13:45:26+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Grafika komputerowa II\materiały + projekt poglądowy\dom_bellano_Adam_Kaczmarczyk.blend1</Path>
+    <FolderId>0B7QqR9_eO7xFOU1rQ08xSWhnQ2s</FolderId>
+    <Name>dom_bellano_Adam_Kaczmarczyk</Name>
+    <LastModyfication>2016-01-20T13:32:30+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Grafika komputerowa II\materiały + projekt poglądowy\wymiary_dom.txt</Path>
+    <FolderId>0B7QqR9_eO7xFOU1rQ08xSWhnQ2s</FolderId>
+    <Name>wymiary_dom</Name>
+    <LastModyfication>2015-11-25T00:16:52+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Grafika komputerowa II\Mynarek materiały\blender_wstęp.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFcWpnNmJtQXpKd28</FolderId>
+    <Name>blender_wstęp</Name>
+    <LastModyfication>2016-10-03T05:08:06+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Grafika komputerowa II\Mynarek materiały\Ćwiczenie 1.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFcWpnNmJtQXpKd28</FolderId>
+    <Name>Ćwiczenie 1</Name>
+    <LastModyfication>2016-10-03T05:08:06+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\~$ojekt_sieci_Kaczmarczyk_Adam.docx</Path>
+    <FolderId>0B7QqR9_eO7xFcjVGNmp5ZHQwMW8</FolderId>
+    <Name>~$ojekt_sieci_Kaczmarczyk_Adam</Name>
+    <LastModyfication>2016-02-02T10:00:06+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\~WRL0005.tmp</Path>
+    <FolderId>0B7QqR9_eO7xFcjVGNmp5ZHQwMW8</FolderId>
+    <Name>~WRL0005</Name>
+    <LastModyfication>2016-02-02T10:00:50+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\DataOptics-202010-1.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFcjVGNmp5ZHQwMW8</FolderId>
+    <Name>DataOptics-202010-1</Name>
+    <LastModyfication>2015-12-13T19:38:28+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys1.png</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys1</Name>
+    <LastModyfication>2016-02-03T17:49:40+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys1.vsdx</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys1</Name>
+    <LastModyfication>2016-02-03T17:49:22+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys10.png</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys10</Name>
+    <LastModyfication>2016-02-03T20:48:14+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys10.vsdx</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys10</Name>
+    <LastModyfication>2016-02-03T20:40:24+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys11.png</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys11</Name>
+    <LastModyfication>2016-02-03T20:48:50+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys11.vsdx</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys11</Name>
+    <LastModyfication>2016-02-03T20:43:42+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys12.png</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys12</Name>
+    <LastModyfication>2016-02-03T20:49:06+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys12.vsdx</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys12</Name>
+    <LastModyfication>2016-02-03T20:45:34+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys13.png</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys13</Name>
+    <LastModyfication>2016-02-04T08:03:10+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys13.vsdx</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys13</Name>
+    <LastModyfication>2016-02-04T08:02:58+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys2.png</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys2</Name>
+    <LastModyfication>2016-02-03T17:48:56+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys2.vsdx</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys2</Name>
+    <LastModyfication>2016-02-03T17:48:48+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys3.png</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys3</Name>
+    <LastModyfication>2016-02-03T14:32:48+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys3.vsdx</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys3</Name>
+    <LastModyfication>2016-02-03T14:32:36+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys4.png</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys4</Name>
+    <LastModyfication>2016-02-03T19:05:14+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys4.vsdx</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys4</Name>
+    <LastModyfication>2016-02-03T19:05:06+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys5.png</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys5</Name>
+    <LastModyfication>2016-02-03T00:22:38+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys5.vsdx</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys5</Name>
+    <LastModyfication>2016-02-03T00:22:28+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys6.png</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys6</Name>
+    <LastModyfication>2016-02-03T00:22:14+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys6.vsdx</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys6</Name>
+    <LastModyfication>2016-02-03T00:22:02+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys7.png</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys7</Name>
+    <LastModyfication>2016-02-03T00:32:56+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys7.vsdx</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys7</Name>
+    <LastModyfication>2016-02-03T00:32:46+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys8.png</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys8</Name>
+    <LastModyfication>2016-02-03T20:47:26+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys8.vsdx</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys8</Name>
+    <LastModyfication>2016-02-03T20:37:14+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys9.png</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys9</Name>
+    <LastModyfication>2016-02-03T20:47:48+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\materiały\rys9.vsdx</Path>
+    <FolderId>0B7QqR9_eO7xFUWtRMmMyV1lIME0</FolderId>
+    <Name>rys9</Name>
+    <LastModyfication>2016-02-03T20:01:14+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\projekt_sieci_Kaczmarczyk_Adam.docx</Path>
+    <FolderId>0B7QqR9_eO7xFcjVGNmp5ZHQwMW8</FolderId>
+    <Name>projekt_sieci_Kaczmarczyk_Adam</Name>
+    <LastModyfication>2016-02-04T10:39:20+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\przyklad.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFcjVGNmp5ZHQwMW8</FolderId>
+    <Name>przyklad</Name>
+    <LastModyfication>2015-12-13T19:59:30+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Sieci komputerowe II\projekt poglądowy\Wymagania-i-wytyczne-instalacji.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFcjVGNmp5ZHQwMW8</FolderId>
+    <Name>Wymagania-i-wytyczne-instalacji</Name>
+    <LastModyfication>2015-12-13T19:37:52+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Transmisja danych\projekt poglądowy\projekt_transmisja_danych.docx</Path>
+    <FolderId>0B7QqR9_eO7xFcjVGNmp5ZHQwMW8</FolderId>
+    <Name>projekt_transmisja_danych</Name>
+    <LastModyfication>2016-01-25T19:07:16+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Transmisja danych\projekt poglądowy\zadanie1_WLAN.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFcjVGNmp5ZHQwMW8</FolderId>
+    <Name>zadanie1_WLAN</Name>
+    <LastModyfication>2015-10-18T21:50:56+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Transmisja danych\projekt poglądowy\zadanie2_WDM.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFcjVGNmp5ZHQwMW8</FolderId>
+    <Name>zadanie2_WDM</Name>
+    <LastModyfication>2015-11-02T17:33:34+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Transmisja danych\projekt poglądowy\zadanie3_kody_transmisyjne.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFcjVGNmp5ZHQwMW8</FolderId>
+    <Name>zadanie3_kody_transmisyjne</Name>
+    <LastModyfication>2015-11-30T17:28:56+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Transmisja danych\projekt poglądowy\zadanie4_swiatlowody.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFcjVGNmp5ZHQwMW8</FolderId>
+    <Name>zadanie4_swiatlowody</Name>
+    <LastModyfication>2015-10-18T18:14:20+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Transmisja danych\projekt poglądowy\zadanie5_pomiary_tlumienia.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFcjVGNmp5ZHQwMW8</FolderId>
+    <Name>zadanie5_pomiary_tlumienia</Name>
+    <LastModyfication>2015-10-18T18:14:20+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Transmisja danych\projekt poglądowy\zadanie6_shdsl.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFcjVGNmp5ZHQwMW8</FolderId>
+    <Name>zadanie6_shdsl</Name>
+    <LastModyfication>2015-10-18T18:14:20+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Transmisja danych\projekt poglądowy\Zagadnienia do zaliczenia wykładu Transmisja Danych 2016.doc</Path>
+    <FolderId>0B7QqR9_eO7xFcjVGNmp5ZHQwMW8</FolderId>
+    <Name>Zagadnienia do zaliczenia wykładu Transmisja Danych 2016</Name>
+    <LastModyfication>2016-01-19T15:44:18+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Bazy danych I\wyklad\Codd (1970).pdf</Path>
+    <FolderId>0B7QqR9_eO7xFU0swYWxvekt4RzQ</FolderId>
+    <Name>Codd (1970)</Name>
+    <LastModyfication>2016-01-21T20:17:40+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Bazy danych I\wyklad\ER.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFU0swYWxvekt4RzQ</FolderId>
+    <Name>ER</Name>
+    <LastModyfication>2016-01-21T20:17:40+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Bazy danych I\wyklad\Kartka (Word 97).doc</Path>
+    <FolderId>0B7QqR9_eO7xFU0swYWxvekt4RzQ</FolderId>
+    <Name>Kartka (Word 97)</Name>
+    <LastModyfication>2016-01-21T20:17:40+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Bazy danych I\wyklad\Kartka.docx</Path>
+    <FolderId>0B7QqR9_eO7xFU0swYWxvekt4RzQ</FolderId>
+    <Name>Kartka</Name>
+    <LastModyfication>2016-01-21T20:17:40+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Bazy danych I\wyklad\Kartka_empty.docx</Path>
+    <FolderId>0B7QqR9_eO7xFU0swYWxvekt4RzQ</FolderId>
+    <Name>Kartka_empty</Name>
+    <LastModyfication>2016-01-28T20:54:02+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Bazy danych I\wyklad\Kartka_empty.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFU0swYWxvekt4RzQ</FolderId>
+    <Name>Kartka_empty</Name>
+    <LastModyfication>2016-01-21T20:17:40+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Bazy danych I\wyklad\ODMG 3.0.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFU0swYWxvekt4RzQ</FolderId>
+    <Name>ODMG 3</Name>
+    <LastModyfication>2016-01-21T20:17:40+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Bazy danych I\wyklad\OM.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFU0swYWxvekt4RzQ</FolderId>
+    <Name>OM</Name>
+    <LastModyfication>2016-01-21T20:17:40+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Bazy danych I\wyklad\podstawy_encji.jpeg</Path>
+    <FolderId>0B7QqR9_eO7xFU0swYWxvekt4RzQ</FolderId>
+    <Name>podstawy_encji</Name>
+    <LastModyfication>2016-01-28T18:25:48+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Bazy danych I\wyklad\podstawy_obiektowy.jpeg</Path>
+    <FolderId>0B7QqR9_eO7xFU0swYWxvekt4RzQ</FolderId>
+    <Name>podstawy_obiektowy</Name>
+    <LastModyfication>2016-01-28T18:25:56+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Bazy danych I\wyklad\podstawy_relacyjny.jpeg</Path>
+    <FolderId>0B7QqR9_eO7xFU0swYWxvekt4RzQ</FolderId>
+    <Name>podstawy_relacyjny</Name>
+    <LastModyfication>2016-01-28T18:25:50+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Bazy danych I\wyklad\RDB.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFU0swYWxvekt4RzQ</FolderId>
+    <Name>RDB</Name>
+    <LastModyfication>2016-01-21T20:17:40+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Bazy danych I\wyklad\The entity-relationship model - toward a unified view of data (Chen 1976).pdf</Path>
+    <FolderId>0B7QqR9_eO7xFU0swYWxvekt4RzQ</FolderId>
+    <Name>The entity-relationship model - toward a unified view of data (Chen 1976)</Name>
+    <LastModyfication>2016-01-21T20:17:40+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Transmisja danych\w_tra_dan_dzienne_1_2n.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFVmlLamxBWEFZUVk</FolderId>
+    <Name>w_tra_dan_dzienne_1_2n</Name>
+    <LastModyfication>2015-11-17T23:17:06+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Transmisja danych\w_tra_dan_dzienne_4n.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFVmlLamxBWEFZUVk</FolderId>
+    <Name>w_tra_dan_dzienne_4n</Name>
+    <LastModyfication>2015-11-17T23:17:06+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Transmisja danych\w_tra_dan_dzienne_5n.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFVmlLamxBWEFZUVk</FolderId>
+    <Name>w_tra_dan_dzienne_5n</Name>
+    <LastModyfication>2015-11-17T23:17:06+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Transmisja danych\w_tra_dan_dzienne_6n.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFVmlLamxBWEFZUVk</FolderId>
+    <Name>w_tra_dan_dzienne_6n</Name>
+    <LastModyfication>2015-11-17T23:17:08+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Transmisja danych\w_tran_dan_dzienne_10n.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFVmlLamxBWEFZUVk</FolderId>
+    <Name>w_tran_dan_dzienne_10n</Name>
+    <LastModyfication>2015-11-17T23:17:06+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Transmisja danych\w_tran_dan_dzienne_11n.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFVmlLamxBWEFZUVk</FolderId>
+    <Name>w_tran_dan_dzienne_11n</Name>
+    <LastModyfication>2015-11-17T23:17:06+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Transmisja danych\w_tran_dan_dzienne_12n.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFVmlLamxBWEFZUVk</FolderId>
+    <Name>w_tran_dan_dzienne_12n</Name>
+    <LastModyfication>2015-11-17T23:17:06+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Transmisja danych\w_tran_dan_dzienne_13n.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFVmlLamxBWEFZUVk</FolderId>
+    <Name>w_tran_dan_dzienne_13n</Name>
+    <LastModyfication>2015-11-17T23:17:06+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Transmisja danych\w_tran_dan_dzienne_14n bonus do zaliczenia.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFVmlLamxBWEFZUVk</FolderId>
+    <Name>w_tran_dan_dzienne_14n bonus do zaliczenia</Name>
+    <LastModyfication>2015-11-17T23:17:06+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Transmisja danych\w_tran_dan_dzienne_3n.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFVmlLamxBWEFZUVk</FolderId>
+    <Name>w_tran_dan_dzienne_3n</Name>
+    <LastModyfication>2015-11-17T23:17:06+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Transmisja danych\w_tran_dan_dzienne_7n.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFVmlLamxBWEFZUVk</FolderId>
+    <Name>w_tran_dan_dzienne_7n</Name>
+    <LastModyfication>2015-11-17T23:17:06+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Transmisja danych\w_tran_dan_dzienne_8n_9n.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFVmlLamxBWEFZUVk</FolderId>
+    <Name>w_tran_dan_dzienne_8n_9n</Name>
+    <LastModyfication>2015-11-17T23:17:06+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[W] Transmisja danych\Zagadnienia do zaliczenia wykładu Transmisja Danych 2016.doc</Path>
+    <FolderId>0B7QqR9_eO7xFVmlLamxBWEFZUVk</FolderId>
+    <Name>Zagadnienia do zaliczenia wykładu Transmisja Danych 2016</Name>
+    <LastModyfication>2016-01-19T09:41:14+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[C] Ochrona danych w systemach i sieciach komputerowych\201610051302131000.jpg</Path>
+    <Name>201610051302131000</Name>
+    <LastModyfication>2016-10-05T13:03:30+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[C] Ochrona danych w systemach i sieciach komputerowych\clipart\12154415151126295659lemmling_Cartoon_owl.svg.med.png</Path>
+    <Name>12154415151126295659lemmling_Cartoon_owl</Name>
+    <LastModyfication>2016-10-12T13:28:33.3857161+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[C] Ochrona danych w systemach i sieciach komputerowych\clipart\Berne_Convention.png</Path>
+    <Name>Berne_Convention</Name>
+    <LastModyfication>2016-10-12T14:22:18.9643774+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[C] Ochrona danych w systemach i sieciach komputerowych\clipart\burglar.png</Path>
+    <Name>burglar</Name>
+    <LastModyfication>2016-10-12T13:08:35.1974668+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[C] Ochrona danych w systemach i sieciach komputerowych\clipart\burglar.svg</Path>
+    <Name>burglar</Name>
+    <LastModyfication>2016-10-12T13:02:56.2913929+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[C] Ochrona danych w systemach i sieciach komputerowych\clipart\CinematographeProjection.png</Path>
+    <Name>CinematographeProjection</Name>
+    <LastModyfication>2016-10-12T13:50:25.1066561+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[C] Ochrona danych w systemach i sieciach komputerowych\clipart\handshaking_6815290.zip</Path>
+    <Name>handshaking_6815290</Name>
+    <LastModyfication>2016-10-12T14:11:44.3853643+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[C] Ochrona danych w systemach i sieciach komputerowych\clipart\handshaking_6815290\HandShaking.eps</Path>
+    <Name>HandShaking</Name>
+    <LastModyfication>2015-07-14T12:06:26+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[C] Ochrona danych w systemach i sieciach komputerowych\clipart\handshaking_6815290\Me.txt</Path>
+    <Name>Me</Name>
+    <LastModyfication>2015-07-14T12:18:54+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[C] Ochrona danych w systemach i sieciach komputerowych\clipart\handshaking_6815290\Preview.jpg</Path>
+    <Name>Preview</Name>
+    <LastModyfication>2015-07-14T12:16:12+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[C] Ochrona danych w systemach i sieciach komputerowych\clipart\shake.gif</Path>
+    <Name>shake</Name>
+    <LastModyfication>2016-10-12T13:31:01.9790534+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[C] Ochrona danych w systemach i sieciach komputerowych\clipart\sleep.png</Path>
+    <Name>sleep</Name>
+    <LastModyfication>2016-10-12T13:03:20.0757498+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[C] Ochrona danych w systemach i sieciach komputerowych\Ochrona praw autorskich – Konwencja berneńska.pptx</Path>
+    <FolderId>0B7QqR9_eO7xFTzBKTzNqX3N5R3c</FolderId>
+    <Name>Ochrona praw autorskich – Konwencja berneńska</Name>
+    <LastModyfication>2016-10-12T14:45:35.1146901+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\ssk.we.po.opole.pl materiały\2.1.1.6 Lab - Configuring Basic Switch Settings.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFbkpDdlE0U29qYTQ</FolderId>
+    <Name>2</Name>
+    <LastModyfication>2016-10-11T21:59:11.103121+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\pkt gola.txt</Path>
+    <FolderId>0B7QqR9_eO7xFRVczcjF3TFE1aGs</FolderId>
+    <Name>pkt gola</Name>
+    <LastModyfication>2016-01-20T21:10:04+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\powtorka_i_sem.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFRVczcjF3TFE1aGs</FolderId>
+    <Name>powtorka_i_sem</Name>
+    <LastModyfication>2015-10-18T16:59:50+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\PRAKTYCZNY sieci\practise cisco.txt</Path>
+    <FolderId>0B7QqR9_eO7xFVjRINUdEX185TmM</FolderId>
+    <Name>practise cisco</Name>
+    <LastModyfication>2016-01-18T14:20:34+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\PRAKTYCZNY sieci\skill-calosc.docx</Path>
+    <FolderId>0B7QqR9_eO7xFVjRINUdEX185TmM</FolderId>
+    <Name>skill-calosc</Name>
+    <LastModyfication>2016-01-18T18:06:12+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\PRAKTYCZNY sieci\zadania 1-8 komendy\Łysy_zadania_5-8.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFWEs2OHRDLVBPVWs</FolderId>
+    <Name>Łysy_zadania_5-8</Name>
+    <LastModyfication>2016-01-19T21:45:20+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\PRAKTYCZNY sieci\zadania 1-8 komendy\zadania 1-4.docx</Path>
+    <FolderId>0B7QqR9_eO7xFWEs2OHRDLVBPVWs</FolderId>
+    <Name>zadania 1-4</Name>
+    <LastModyfication>2016-01-19T21:54:50+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\PRAKTYCZNY sieci\zadania 1-8 komendy\zadania 5-8.docx</Path>
+    <FolderId>0B7QqR9_eO7xFWEs2OHRDLVBPVWs</FolderId>
+    <Name>zadania 5-8</Name>
+    <LastModyfication>2016-01-19T21:43:40+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\PRAKTYCZNY sieci\zadania 1-8 komendy\zadania.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFWEs2OHRDLVBPVWs</FolderId>
+    <Name>zadania</Name>
+    <LastModyfication>2016-01-19T21:49:46+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\sieci-przyklady.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFRVczcjF3TFE1aGs</FolderId>
+    <Name>sieci-przyklady</Name>
+    <LastModyfication>2015-10-18T17:01:18+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 1\dokumentacja.docx</Path>
+    <FolderId>0B7QqR9_eO7xFMW1LeFNDRGRXRUE</FolderId>
+    <Name>dokumentacja</Name>
+    <LastModyfication>2015-10-21T19:23:24+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 1\dokumentacja.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFMW1LeFNDRGRXRUE</FolderId>
+    <Name>dokumentacja</Name>
+    <LastModyfication>2015-10-21T19:26:46+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 1\ip.txt</Path>
+    <FolderId>0B7QqR9_eO7xFMW1LeFNDRGRXRUE</FolderId>
+    <Name>ip</Name>
+    <LastModyfication>2015-10-21T16:32:18+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 1\kod na switche.txt</Path>
+    <FolderId>0B7QqR9_eO7xFMW1LeFNDRGRXRUE</FolderId>
+    <Name>kod na switche</Name>
+    <LastModyfication>2015-10-21T12:28:40+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 1\RybarczykGrzegorz.zip</Path>
+    <FolderId>0B7QqR9_eO7xFMW1LeFNDRGRXRUE</FolderId>
+    <Name>RybarczykGrzegorz</Name>
+    <LastModyfication>2015-10-21T19:29:08+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 1\zadanie1.pkt</Path>
+    <FolderId>0B7QqR9_eO7xFMW1LeFNDRGRXRUE</FolderId>
+    <Name>zadanie1</Name>
+    <LastModyfication>2015-10-21T19:24:48+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 2\dokumentacja.docx</Path>
+    <FolderId>0B7QqR9_eO7xFaTNia3RnQkR6REk</FolderId>
+    <Name>dokumentacja</Name>
+    <LastModyfication>2015-10-26T19:49:26+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 2\dokumentacja.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFaTNia3RnQkR6REk</FolderId>
+    <Name>dokumentacja</Name>
+    <LastModyfication>2015-10-26T19:56:04+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 2\kod na switche.txt</Path>
+    <FolderId>0B7QqR9_eO7xFaTNia3RnQkR6REk</FolderId>
+    <Name>kod na switche</Name>
+    <LastModyfication>2015-10-21T12:28:40+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 2\konfiguracja routerów.txt</Path>
+    <FolderId>0B7QqR9_eO7xFaTNia3RnQkR6REk</FolderId>
+    <Name>konfiguracja routerów</Name>
+    <LastModyfication>2015-10-25T13:05:22+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 2\Przemysław-Stec-L5.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFaTNia3RnQkR6REk</FolderId>
+    <Name>Przemysław-Stec-L5</Name>
+    <LastModyfication>2015-10-25T13:30:06+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 2\RybarczykGrzegorz.zip</Path>
+    <FolderId>0B7QqR9_eO7xFaTNia3RnQkR6REk</FolderId>
+    <Name>RybarczykGrzegorz</Name>
+    <LastModyfication>2015-10-26T19:57:06+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 2\static.txt</Path>
+    <FolderId>0B7QqR9_eO7xFaTNia3RnQkR6REk</FolderId>
+    <Name>static</Name>
+    <LastModyfication>2015-10-26T19:05:42+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 2\ZADANIE 2.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFaTNia3RnQkR6REk</FolderId>
+    <Name>ZADANIE 2</Name>
+    <LastModyfication>2015-10-23T18:46:02+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 2\ZADANIE2.pkt</Path>
+    <FolderId>0B7QqR9_eO7xFaTNia3RnQkR6REk</FolderId>
+    <Name>ZADANIE2</Name>
+    <LastModyfication>2015-10-26T19:54:10+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 3\7.3.1.8 Packet Tracer - Configuring RIPv2 Instructions.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFREVIQWlWXzZaR2M</FolderId>
+    <Name>7</Name>
+    <LastModyfication>2015-10-29T16:46:48+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 3\polecenia.txt</Path>
+    <FolderId>0B7QqR9_eO7xFREVIQWlWXzZaR2M</FolderId>
+    <Name>polecenia</Name>
+    <LastModyfication>2015-11-01T20:36:58+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 3\RybarczykGrzegorz.zip</Path>
+    <FolderId>0B7QqR9_eO7xFREVIQWlWXzZaR2M</FolderId>
+    <Name>RybarczykGrzegorz</Name>
+    <LastModyfication>2015-11-02T10:05:48+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 3\zadanie3.pka</Path>
+    <FolderId>0B7QqR9_eO7xFREVIQWlWXzZaR2M</FolderId>
+    <Name>zadanie3</Name>
+    <LastModyfication>2015-11-02T10:05:58+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 4\dokumentacja zadanie 4.docx</Path>
+    <FolderId>0B7QqR9_eO7xFV0haRGxuaUZ0QTA</FolderId>
+    <Name>dokumentacja zadanie 4</Name>
+    <LastModyfication>2015-11-26T00:21:14+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 4\dokumentacja_zadanie_4.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFV0haRGxuaUZ0QTA</FolderId>
+    <Name>dokumentacja_zadanie_4</Name>
+    <LastModyfication>2015-11-26T00:22:20+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 4\KAT.png</Path>
+    <FolderId>0B7QqR9_eO7xFV0haRGxuaUZ0QTA</FolderId>
+    <Name>KAT</Name>
+    <LastModyfication>2015-11-26T00:02:16+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 4\OP.png</Path>
+    <FolderId>0B7QqR9_eO7xFV0haRGxuaUZ0QTA</FolderId>
+    <Name>OP</Name>
+    <LastModyfication>2015-11-26T00:01:30+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 4\WA.png</Path>
+    <FolderId>0B7QqR9_eO7xFV0haRGxuaUZ0QTA</FolderId>
+    <Name>WA</Name>
+    <LastModyfication>2015-11-26T00:00:48+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 4\WAN.png</Path>
+    <FolderId>0B7QqR9_eO7xFV0haRGxuaUZ0QTA</FolderId>
+    <Name>WAN</Name>
+    <LastModyfication>2015-11-25T23:59:00+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 4\ZADANIE 4.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFV0haRGxuaUZ0QTA</FolderId>
+    <Name>ZADANIE 4</Name>
+    <LastModyfication>2015-11-23T21:07:44+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 4\ZADANIE4.pkt</Path>
+    <FolderId>0B7QqR9_eO7xFV0haRGxuaUZ0QTA</FolderId>
+    <Name>ZADANIE4</Name>
+    <LastModyfication>2015-11-26T00:06:34+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.10\9.2.1.10 ACLs dokumentacja.docx</Path>
+    <FolderId>0B7QqR9_eO7xFVkx3RDJhUnM0SFU</FolderId>
+    <Name>9</Name>
+    <LastModyfication>2015-12-02T21:00:34+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.10\9.2.1.10 Packet Tracer Configuring Standard ACLs Instructions.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFVkx3RDJhUnM0SFU</FolderId>
+    <Name>9</Name>
+    <LastModyfication>2015-12-01T23:18:58+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.10\9.2.1.10 Packet Tracer Configuring Standard ACLs.pka</Path>
+    <FolderId>0B7QqR9_eO7xFVkx3RDJhUnM0SFU</FolderId>
+    <Name>9</Name>
+    <LastModyfication>2015-12-02T22:22:32+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.10\krok1.jpg</Path>
+    <FolderId>0B7QqR9_eO7xFVkx3RDJhUnM0SFU</FolderId>
+    <Name>krok1</Name>
+    <LastModyfication>2015-12-03T01:30:48+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.10\krok1.png</Path>
+    <FolderId>0B7QqR9_eO7xFVkx3RDJhUnM0SFU</FolderId>
+    <Name>krok1</Name>
+    <LastModyfication>2015-12-02T10:48:58+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.10\krok2.png</Path>
+    <FolderId>0B7QqR9_eO7xFVkx3RDJhUnM0SFU</FolderId>
+    <Name>krok2</Name>
+    <LastModyfication>2015-12-02T10:53:42+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.10\krok3.txt</Path>
+    <FolderId>0B7QqR9_eO7xFVkx3RDJhUnM0SFU</FolderId>
+    <Name>krok3</Name>
+    <LastModyfication>2015-12-02T11:05:20+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.10\PC1ping1.png</Path>
+    <FolderId>0B7QqR9_eO7xFVkx3RDJhUnM0SFU</FolderId>
+    <Name>PC1ping1</Name>
+    <LastModyfication>2015-12-02T20:23:38+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.10\PC1ping2.png</Path>
+    <FolderId>0B7QqR9_eO7xFVkx3RDJhUnM0SFU</FolderId>
+    <Name>PC1ping2</Name>
+    <LastModyfication>2015-12-02T20:26:08+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.10\PC1ping3.png</Path>
+    <FolderId>0B7QqR9_eO7xFVkx3RDJhUnM0SFU</FolderId>
+    <Name>PC1ping3</Name>
+    <LastModyfication>2015-12-02T20:37:14+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.10\PC2ping1+2.png</Path>
+    <FolderId>0B7QqR9_eO7xFVkx3RDJhUnM0SFU</FolderId>
+    <Name>PC2ping1+2</Name>
+    <LastModyfication>2015-12-02T20:42:06+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.10\PC3ping1.png</Path>
+    <FolderId>0B7QqR9_eO7xFVkx3RDJhUnM0SFU</FolderId>
+    <Name>PC3ping1</Name>
+    <LastModyfication>2015-12-02T20:43:02+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.11\9.2.1.11 Packet Tracer - Configuring Named Standard ACLs dokumentacja.docx</Path>
+    <FolderId>0B7QqR9_eO7xFNmlwNEpVM1R3OUE</FolderId>
+    <Name>9</Name>
+    <LastModyfication>2015-12-02T22:17:30+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.11\9.2.1.11 Packet Tracer - Configuring Named Standard ACLs Instructions.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFNmlwNEpVM1R3OUE</FolderId>
+    <Name>9</Name>
+    <LastModyfication>2015-12-01T23:19:02+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.11\9.2.1.11 Packet Tracer - Configuring Named Standard ACLs.pka</Path>
+    <FolderId>0B7QqR9_eO7xFNmlwNEpVM1R3OUE</FolderId>
+    <Name>9</Name>
+    <LastModyfication>2015-12-02T22:39:14+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.11\cz2.txt</Path>
+    <FolderId>0B7QqR9_eO7xFNmlwNEpVM1R3OUE</FolderId>
+    <Name>cz2</Name>
+    <LastModyfication>2015-12-02T22:08:16+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.11\pc0.png</Path>
+    <FolderId>0B7QqR9_eO7xFNmlwNEpVM1R3OUE</FolderId>
+    <Name>pc0</Name>
+    <LastModyfication>2015-12-02T21:34:18+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.11\pc0fin.png</Path>
+    <FolderId>0B7QqR9_eO7xFNmlwNEpVM1R3OUE</FolderId>
+    <Name>pc0fin</Name>
+    <LastModyfication>2015-12-02T22:12:36+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.11\pc1.png</Path>
+    <FolderId>0B7QqR9_eO7xFNmlwNEpVM1R3OUE</FolderId>
+    <Name>pc1</Name>
+    <LastModyfication>2015-12-02T21:33:20+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.11\pc1fin.png</Path>
+    <FolderId>0B7QqR9_eO7xFNmlwNEpVM1R3OUE</FolderId>
+    <Name>pc1fin</Name>
+    <LastModyfication>2015-12-02T22:13:56+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.11\pc2.png</Path>
+    <FolderId>0B7QqR9_eO7xFNmlwNEpVM1R3OUE</FolderId>
+    <Name>pc2</Name>
+    <LastModyfication>2015-12-02T21:35:54+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.11\pc2fin.png</Path>
+    <FolderId>0B7QqR9_eO7xFNmlwNEpVM1R3OUE</FolderId>
+    <Name>pc2fin</Name>
+    <LastModyfication>2015-12-02T22:13:20+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.2.1.11\screen1.png</Path>
+    <FolderId>0B7QqR9_eO7xFNmlwNEpVM1R3OUE</FolderId>
+    <Name>screen1</Name>
+    <LastModyfication>2015-12-02T21:52:06+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.3.2.11\1.png</Path>
+    <FolderId>0B7QqR9_eO7xFM2hMTHlLUFFjUms</FolderId>
+    <Name>1</Name>
+    <LastModyfication>2015-12-03T00:21:00+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.3.2.11\2.png</Path>
+    <FolderId>0B7QqR9_eO7xFM2hMTHlLUFFjUms</FolderId>
+    <Name>2</Name>
+    <LastModyfication>2015-12-03T00:23:36+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.3.2.11\3.png</Path>
+    <FolderId>0B7QqR9_eO7xFM2hMTHlLUFFjUms</FolderId>
+    <Name>3</Name>
+    <LastModyfication>2015-12-03T00:35:36+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.3.2.11\9.3.2.11 ACLs dokumentacja.docx</Path>
+    <FolderId>0B7QqR9_eO7xFM2hMTHlLUFFjUms</FolderId>
+    <Name>9</Name>
+    <LastModyfication>2015-12-03T00:38:04+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.3.2.11\9.3.2.11 Configuring Extended ACLs Scenario 2 Instructions.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFM2hMTHlLUFFjUms</FolderId>
+    <Name>9</Name>
+    <LastModyfication>2015-12-01T23:19:04+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.3.2.11\9.3.2.11 Configuring Extended ACLs Scenario 2.pka</Path>
+    <FolderId>0B7QqR9_eO7xFM2hMTHlLUFFjUms</FolderId>
+    <Name>9</Name>
+    <LastModyfication>2015-12-03T00:37:10+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.3.2.11\dokumentacja.docx</Path>
+    <FolderId>0B7QqR9_eO7xFM2hMTHlLUFFjUms</FolderId>
+    <Name>dokumentacja</Name>
+    <LastModyfication>2015-12-03T00:38:04+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 5 i 6\9.3.2.11\kod.txt</Path>
+    <FolderId>0B7QqR9_eO7xFM2hMTHlLUFFjUms</FolderId>
+    <Name>kod</Name>
+    <LastModyfication>2015-12-03T00:36:16+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 7\1.png</Path>
+    <FolderId>0B7QqR9_eO7xFakpXOGZOdlFvb3c</FolderId>
+    <Name>1</Name>
+    <LastModyfication>2015-12-07T16:14:16+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 7\10.1.3.3 Packet Tracer - Configuring DHCPv4 Using Cisco IOS Instructions.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFakpXOGZOdlFvb3c</FolderId>
+    <Name>10</Name>
+    <LastModyfication>2015-12-04T20:24:20+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 7\10.1.3.3 Packet Tracer - Configuring DHCPv4 Using Cisco IOS.pka</Path>
+    <FolderId>0B7QqR9_eO7xFakpXOGZOdlFvb3c</FolderId>
+    <Name>10</Name>
+    <LastModyfication>2015-12-07T16:44:06+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 7\2.png</Path>
+    <FolderId>0B7QqR9_eO7xFakpXOGZOdlFvb3c</FolderId>
+    <Name>2</Name>
+    <LastModyfication>2015-12-07T16:14:52+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 7\3.png</Path>
+    <FolderId>0B7QqR9_eO7xFakpXOGZOdlFvb3c</FolderId>
+    <Name>3</Name>
+    <LastModyfication>2015-12-07T16:37:08+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 7\4.png</Path>
+    <FolderId>0B7QqR9_eO7xFakpXOGZOdlFvb3c</FolderId>
+    <Name>4</Name>
+    <LastModyfication>2015-12-07T16:40:46+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 7\5.png</Path>
+    <FolderId>0B7QqR9_eO7xFakpXOGZOdlFvb3c</FolderId>
+    <Name>5</Name>
+    <LastModyfication>2015-12-07T16:41:32+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 7\dokumentacja zad 7.docx</Path>
+    <FolderId>0B7QqR9_eO7xFakpXOGZOdlFvb3c</FolderId>
+    <Name>dokumentacja zad 7</Name>
+    <LastModyfication>2015-12-07T16:43:24+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 7\dokumentacja.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFakpXOGZOdlFvb3c</FolderId>
+    <Name>dokumentacja</Name>
+    <LastModyfication>2015-12-07T16:45:22+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 8\11.2.2.5 Packet Tracer - Configuring Dynamic NAT.pka</Path>
+    <FolderId>0B7QqR9_eO7xFSkVXc2NKd0pwTHM</FolderId>
+    <Name>11</Name>
+    <LastModyfication>2015-12-12T21:21:32+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 8\11.2.3.6 Packet Tracer - Implementing Static and Dynamic NAT.pka</Path>
+    <FolderId>0B7QqR9_eO7xFSkVXc2NKd0pwTHM</FolderId>
+    <Name>11</Name>
+    <LastModyfication>2015-12-12T23:28:42+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 8\dokumentacja.docx</Path>
+    <FolderId>0B7QqR9_eO7xFSkVXc2NKd0pwTHM</FolderId>
+    <Name>dokumentacja</Name>
+    <LastModyfication>2015-12-12T22:27:54+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 8\dokumentacja.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFSkVXc2NKd0pwTHM</FolderId>
+    <Name>dokumentacja</Name>
+    <LastModyfication>2015-12-12T22:39:58+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 9 i 10\certyfikaty\Certificate Azure 101 – Cechy Microsof t Azure.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFNmdRLVlrWnN0N0k</FolderId>
+    <Name>Certificate Azure 101 – Cechy Microsof t Azure</Name>
+    <LastModyfication>2015-12-13T18:52:48+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadania rozwiązane\ZADANIE 9 i 10\certyfikaty\Certificate Chmura hybrydowa od podstaw.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFNmdRLVlrWnN0N0k</FolderId>
+    <Name>Certificate Chmura hybrydowa od podstaw</Name>
+    <LastModyfication>2015-12-13T17:07:10+01:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Administrowanie sieciowymi systemami operacyjnymi\centos\centos6.7.ova</Path>
+    <Name>centos6</Name>
+    <LastModyfication>2015-09-27T15:17:46+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Administrowanie sieciowymi systemami operacyjnymi\centos\CentOS-6.8-i386-minimal.iso</Path>
+    <Name>CentOS-6</Name>
+    <LastModyfication>2016-10-03T10:33:06+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[P] Administrowanie sieciowymi systemami operacyjnymi\centos\Red_Hat_Enterprise_Linux-6-Deployment_Guide-en-US.pdf</Path>
+    <Name>Red_Hat_Enterprise_Linux-6-Deployment_Guide-en-US</Name>
+    <LastModyfication>2015-09-27T15:19:02+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\PacketTracer70_64bit_setup.exe</Path>
+    <Name>PacketTracer70_64bit_setup</Name>
+    <LastModyfication>2016-10-14T18:04:55.512492+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadanie 1\Grzegorz Stysiak Zadanie 1.docx</Path>
+    <Name>Grzegorz Stysiak Zadanie 1</Name>
+    <LastModyfication>2016-10-14T22:48:45.8564009+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadanie 1\Grzegorz Stysiak Zadanie 1.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFai1sNEEycjZxOU0</FolderId>
+    <Name>Grzegorz Stysiak Zadanie 1</Name>
+    <LastModyfication>2016-10-14T23:03:35.7634204+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadanie 1\Stysiak Grzegorz Zadanie 1 v2.pkt</Path>
+    <Name>Stysiak Grzegorz Zadanie 1 v2</Name>
+    <LastModyfication>2016-10-14T20:22:01.4136201+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadanie 1\Stysiak Grzegorz Zadanie 1 working.pkt</Path>
+    <FolderId>0B7QqR9_eO7xFai1sNEEycjZxOU0</FolderId>
+    <Name>Stysiak Grzegorz Zadanie 1 working</Name>
+    <LastModyfication>2016-10-14T22:48:15.7780484+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadanie 1\Stysiak Grzegorz Zadanie 1.pkt</Path>
+    <Name>Stysiak Grzegorz Zadanie 1</Name>
+    <LastModyfication>2016-10-14T19:41:46.6763766+02:00</LastModyfication>
+  </Sheaf>
+  <Sheaf>
+    <Path>C:\\studia\V\[L] Sieci komputerowe II\Zadanie 1\ZADANIE 1.pdf</Path>
+    <FolderId>0B7QqR9_eO7xFai1sNEEycjZxOU0</FolderId>
+    <Name>ZADANIE 1</Name>
+    <LastModyfication>2016-10-14T17:36:27.7897497+02:00</LastModyfication>
   </Sheaf>
 </ArrayOfSheaf>
